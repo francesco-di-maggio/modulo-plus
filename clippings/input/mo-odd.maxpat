@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 70.0, 87.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 142.0, 87.0 ],
+		"openrect" : [ 0.0, 0.0, 142.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,13 +50,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.xy.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 5,
+					"name" : "mo.odd.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 0.0, 0.0, 70.0, 87.0 ],
-					"varname" : "mo.xy",
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 0.0, 0.0, 142.0, 87.0 ],
+					"varname" : "mo.odd",
 					"viewvisibility" : 1
 				}
 
@@ -64,9 +64,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-59" : [ "live.numbox[48]", "live.numbox", 0 ],
-			"obj-1::obj-68" : [ "live.numbox[65]", "live.numbox", 0 ],
-			"obj-1::obj-96" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-1::obj-153" : [ "live.text[19]", "live.text", 0 ],
+			"obj-1::obj-46" : [ "live.text[24]", "live.text", 0 ],
+			"obj-1::obj-5" : [ "live.text[88]", "live.text", 0 ],
+			"obj-1::obj-60" : [ "live.button[2]", "live.button", 0 ],
+			"obj-1::obj-71" : [ "live.text[95]", "live.text[12]", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -76,26 +78,46 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-1::obj-153" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
+				"obj-1::obj-46" : 				{
+					"parameter_longname" : "live.text[24]"
+				}
+,
+				"obj-1::obj-5" : 				{
+					"parameter_longname" : "live.text[88]"
+				}
+,
+				"obj-1::obj-71" : 				{
+					"parameter_longname" : "live.text[95]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.poltocar.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../modulo/misc/abstractions",
+				"name" : "lock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.odd.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
+				"patcherrelativepath" : "../../patchers/inputs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.xy.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
+				"name" : "unlock.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "xydisplay.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
