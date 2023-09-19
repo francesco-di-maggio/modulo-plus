@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 430.0, 265.0 ],
-		"openrect" : [ 0.0, 0.0, 430.0, 265.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 176.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,13 +50,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.fm~.maxpat",
+					"name" : "mo.audiotester.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 0.0, 0.0, 430.0, 265.0 ],
-					"varname" : "mo.fm~",
+					"patching_rect" : [ 0.0, 0.0, 214.0, 87.0 ],
+					"varname" : "mo.audiotester",
 					"viewvisibility" : 1
 				}
 
@@ -64,22 +63,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-111" : [ "live.dial[21]", "detune", 0 ],
-			"obj-1::obj-112" : [ "live.dial[23]", "decay", 0 ],
-			"obj-1::obj-113" : [ "live.dial", "attack", 0 ],
-			"obj-1::obj-114" : [ "live.dial[24]", "sustain", 0 ],
-			"obj-1::obj-116" : [ "live.dial[12]", "live.dial[12]", 0 ],
-			"obj-1::obj-118" : [ "live.dial[27]", "live.dial[19]", 0 ],
-			"obj-1::obj-12" : [ "live.text[3]", "live.text", 0 ],
-			"obj-1::obj-22" : [ "live.dial[26]", "live.dial[18]", 0 ],
-			"obj-1::obj-24" : [ "live.dial[25]", "release", 0 ],
-			"obj-1::obj-25" : [ "live.dial[13]", "semitone", 0 ],
-			"obj-1::obj-27" : [ "live.dial[28]", "live.dial[10]", 0 ],
-			"obj-1::obj-34" : [ "live.text[7]", "live.text", 0 ],
-			"obj-1::obj-37" : [ "live.text[4]", "octave", 0 ],
-			"obj-1::obj-4" : [ "live.dial[29]", "live.dial[20]", 0 ],
-			"obj-1::obj-42" : [ "live.text[21]", "live.text", 0 ],
-			"obj-1::obj-7" : [ "live.dial[7]", "live.dial[7]", 0 ],
+			"obj-1::obj-166" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-1::obj-35" : [ "live.text[36]", "live.text", 0 ],
+			"obj-1::obj-45" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-1::obj-88" : [ "live.text[91]", "live.text", 0 ],
+			"obj-1::obj-9" : [ "live.text[292]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -90,12 +78,16 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-12" : 				{
-					"parameter_longname" : "live.text[3]"
+				"obj-1::obj-166" : 				{
+					"parameter_longname" : "live.numbox[1]"
 				}
 ,
-				"obj-1::obj-37" : 				{
-					"parameter_longname" : "live.text[4]"
+				"obj-1::obj-35" : 				{
+					"parameter_longname" : "live.text[36]"
+				}
+,
+				"obj-1::obj-88" : 				{
+					"parameter_longname" : "live.text[91]"
 				}
 
 			}
@@ -104,28 +96,21 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.fm~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/outputs",
-				"patcherrelativepath" : "../../patchers/outputs",
+				"name" : "mo.audiotester.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "speaker-off.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "speaker-on.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../misc/icons",
 				"type" : "svg",

@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 142.0, 87.0 ],
-		"openrect" : [ 0.0, 0.0, 142.0, 87.0 ],
+		"rect" : [ 0.0, 66.0, 214.0, 87.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 87.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,20 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 0.0, 64.0, 70.0, 23.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -50,25 +64,39 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mo.odd.maxpat",
+					"name" : "mo.palette.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 3,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 0.0, 0.0, 142.0, 87.0 ],
-					"varname" : "mo.odd",
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 0.0, 0.0, 214.0, 87.0 ],
+					"varname" : "mo.palette",
 					"viewvisibility" : 1
 				}
 
 			}
  ],
-		"lines" : [  ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+ ],
 		"parameters" : 		{
-			"obj-1::obj-153" : [ "live.text[19]", "live.text", 0 ],
-			"obj-1::obj-46" : [ "live.text[24]", "live.text", 0 ],
-			"obj-1::obj-5" : [ "live.text[88]", "live.text", 0 ],
-			"obj-1::obj-60" : [ "live.button[2]", "live.button", 0 ],
-			"obj-1::obj-71" : [ "live.text[95]", "live.text[12]", 0 ],
+			"obj-1::obj-106" : [ "live.text[3]", "live.text", 0 ],
+			"obj-1::obj-12" : [ "live.text[780]", "live.text", 0 ],
+			"obj-1::obj-52" : [ "live.text[1]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -78,49 +106,29 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-1::obj-153" : 				{
-					"parameter_longname" : "live.text[19]"
-				}
-,
-				"obj-1::obj-46" : 				{
-					"parameter_longname" : "live.text[24]"
-				}
-,
-				"obj-1::obj-5" : 				{
-					"parameter_longname" : "live.text[88]"
-				}
-,
-				"obj-1::obj-71" : 				{
-					"parameter_longname" : "live.text[95]"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.odd.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/inputs",
-				"patcherrelativepath" : "../../patchers/inputs",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "unlock.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
+				"name" : "mo.palette.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
+		"boxgroups" : [ 			{
+				"boxes" : [ "obj-1", "obj-2" ]
+			}
+ ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
