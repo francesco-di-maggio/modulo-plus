@@ -1,9 +1,9 @@
-![modulo logo](icon.png "the modulo logo")
+![modulo-plus logo](icon.png "the modulo logo")
 
 # modulo-plus
 
 ## About 
-An Extension to the modulo Package. 
+An add-on to the [```modulo```](https://github.com/francesco-di-maggio/modulo) Max Package. 
 
 ## Installation
 
@@ -18,7 +18,7 @@ If not, you can [download the latest release here](https://github.com/francesco-
 
 ## How it works
 
-Open the Overview Patch (modulo-main/extras/modulo-plus.maxpat).
+Open the Overview Patch (modulo-plus-main/extras/modulo-plus.maxpat).
 
 ## Externals
 

@@ -4,22 +4,22 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 66.0, 1478.0, 882.0 ],
+		"rect" : [ 0.0, 66.0, 430.0, 265.0 ],
 		"openrect" : [ 0.0, 0.0, 430.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -47,7 +47,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1339.0, 771.626276284456253, 58.0, 23.0 ],
+					"patching_rect" : [ 1382.0, 796.250000000000227, 58.0, 23.0 ],
 					"text" : "loadbang"
 				}
 
@@ -60,8 +60,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1339.0, 796.626276284456253, 71.0, 23.0 ],
-					"text" : "mo.settings"
+					"patching_rect" : [ 1382.0, 821.250000000000227, 82.0, 23.0 ],
+					"text" : "a-mo.settings"
 				}
 
 			}
@@ -73,7 +73,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1396.0, 846.626276284456253, 70.0, 23.0 ],
+					"patching_rect" : [ 1439.0, 871.250000000000227, 70.0, 23.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -86,7 +86,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1339.0, 821.626276284456253, 127.0, 23.0 ],
+					"patching_rect" : [ 1382.0, 846.250000000000227, 127.0, 23.0 ],
 					"text" : "universal @descend 1"
 				}
 
@@ -524,7 +524,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -687,7 +687,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1005,7 +1005,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 212.255255212102327, 9.842577278614044, 5.0, 29.567398011684418 ],
+					"patching_rect" : [ 161.661668677840623, 56.712897330522537, 5.0, 29.567398011684418 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 296.378824442624989, 136.871792723306498, 5.0, 121.298285461347746 ]
 				}
@@ -1017,7 +1017,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 229.859530855927858, 9.842577278614044, 5.0, 29.567398011684418 ],
+					"patching_rect" : [ 179.265944321666154, 56.712897330522537, 5.0, 29.567398011684418 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 153.599615544080677, 138.371792723306498, 5.0, 64.345707780998396 ]
 				}
@@ -1292,7 +1292,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1819,7 +1819,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2629,7 +2629,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3973,7 +3973,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5332,7 +5332,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5629,7 +5629,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7281,7 +7281,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8212,7 +8212,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 429.117074031205107, 34.409975290298462, 150.442643090089064, 5.0 ],
+					"patching_rect" : [ 28.842786306142557, 46.496596336364746, 150.442643090089064, 5.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 22.0, 430.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
@@ -8892,6 +8892,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"hidden" : 1,
+					"midpoints" : [ 1391.5, 821.623723715543974, 1391.5, 821.623723715543974 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -8973,6 +8974,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-121", 0 ],
 					"hidden" : 1,
+					"midpoints" : [ 1391.5, 845.623723715543974, 1391.5, 845.623723715543974 ],
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -9385,34 +9387,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.gran~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc",
-				"patcherrelativepath" : "../../misc",
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../../modulo/misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
+				"patcherrelativepath" : "../../../modulo/misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stop.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../misc/icons",
+				"patcherrelativepath" : "../../../modulo/misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
+		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
 	}
