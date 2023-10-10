@@ -401,8 +401,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 102.0, 283.0, 22.0 ],
-					"text" : "Externals: https://www.flucoma.org/download/",
+					"patching_rect" : [ 9.0, 102.0, 366.0, 22.0 ],
+					"text" : "Externals: https://learn.flucoma.org/reference/mlpregressor/",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 569.0, 567.0 ],
+		"rect" : [ 34.0, 87.0, 578.0, 567.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 292.674624531260179, 439.609375, 48.0, 48.0 ]
+					"patching_rect" : [ 292.674624531260179, 440.0, 48.0, 48.0 ]
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 380.389369985805388, 450.609375, 74.0, 25.0 ],
+					"patching_rect" : [ 380.389369985805388, 451.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 351.674624531260179, 453.609375, 20.0, 20.0 ],
+					"patching_rect" : [ 351.674624531260179, 454.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -99,7 +99,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 419.398149454545774, 242.499999999999886, 135.0, 25.0 ],
+					"patching_rect" : [ 427.398149454545774, 242.499999999999886, 135.0, 25.0 ],
 					"text" : "set cutoff frequency"
 				}
 
@@ -293,7 +293,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 41.0, 340.249081343412172, 214.0, 88.0 ],
+					"patching_rect" : [ 41.0, 340.249081343412172, 214.0, 87.0 ],
 					"varname" : "mo.onepole~",
 					"viewvisibility" : 1
 				}
@@ -307,7 +307,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 358.674624531260179, 243.499999999999886, 50.0, 23.0 ]
+					"patching_rect" : [ 366.674624531260179, 243.499999999999886, 50.0, 23.0 ]
 				}
 
 			}
@@ -318,7 +318,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 358.674624531260179, 284.999999999999773, 59.0, 23.0 ],
+					"patching_rect" : [ 366.674624531260179, 284.999999999999773, 59.0, 23.0 ],
 					"text" : "cutoff $1"
 				}
 
@@ -347,7 +347,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 368.174624531260179, 267.0, 368.174624531260179, 267.0 ],
+					"midpoints" : [ 376.174624531260179, 267.0, 376.174624531260179, 267.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -387,7 +387,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
-					"midpoints" : [ 368.174624531260179, 327.0, 245.5, 327.0 ],
+					"midpoints" : [ 376.174624531260179, 327.0, 245.5, 327.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -479,6 +479,14 @@
 ,
 				"obj-12::obj-107::obj-68" : 				{
 					"parameter_longname" : "live.numbox[2]"
+				}
+,
+				"obj-12::obj-123::obj-2" : 				{
+					"parameter_longname" : "live.text[39]"
+				}
+,
+				"obj-12::obj-123::obj-68" : 				{
+					"parameter_longname" : "live.numbox[70]"
 				}
 ,
 				"obj-12::obj-1::obj-2" : 				{
@@ -652,6 +660,10 @@
 				"obj-12::obj-74::obj-68" : 				{
 					"parameter_longname" : "live.numbox[1]"
 				}
+,
+				"obj-12::obj-9" : 				{
+					"parameter_longname" : "live.text[76]"
+				}
 
 			}
 ,
@@ -660,15 +672,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.onepole~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.onepole~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/transform",
-				"patcherrelativepath" : "../../patchers/transform",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}

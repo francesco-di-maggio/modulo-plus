@@ -93,7 +93,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1407.5, 184.065131435185094, 112.0, 39.0 ],
+					"patching_rect" : [ 309.0, 370.000000000000114, 112.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 272.5, 227.000000000000114, 112.0, 39.0 ],
@@ -103,7 +103,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 2, 4 ],
+					"args" : [ 2, 6 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -141,7 +141,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1378.0, 193.565131435185037, 20.0, 20.0 ],
+					"patching_rect" : [ 279.5, 379.500000000000057, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 244.0, 236.500000000000057, 20.0, 20.0 ],
 					"rounded" : 60.0,
@@ -158,13 +158,15 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-21",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1406.5, 461.065131435185094, 124.0, 25.0 ],
+					"patching_rect" : [ 308.0, 640.000000000000114, 160.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.5, 352.486411435185119, 124.0, 25.0 ],
-					"text" : "repeat step 1, 2, 3"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 272.5, 345.486411435185119, 160.0, 39.0 ],
+					"text" : "• repeat steps 2, 3, and 4\n• (run model)"
 				}
 
 			}
@@ -183,7 +185,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1378.0, 463.565131435185037, 20.0, 20.0 ],
+					"patching_rect" : [ 279.5, 649.500000000000114, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 244.0, 354.986411435185119, 20.0, 20.0 ],
 					"rounded" : 60.0,
@@ -203,7 +205,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1406.5, 429.065131435185094, 108.0, 25.0 ],
+					"patching_rect" : [ 308.0, 615.000000000000114, 108.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 272.5, 319.486411435185119, 108.0, 25.0 ],
 					"text" : "record example"
@@ -225,7 +227,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1378.0, 431.565131435185037, 20.0, 20.0 ],
+					"patching_rect" : [ 279.5, 617.500000000000114, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 244.0, 321.986411435185119, 20.0, 20.0 ],
 					"rounded" : 60.0,
@@ -287,7 +289,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1406.0, 154.065131435184981, 73.0, 25.0 ],
+					"patching_rect" : [ 307.5, 340.0, 73.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 272.5, 193.486411435185119, 73.0, 25.0 ],
 					"text" : "set input"
@@ -309,7 +311,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1378.0, 156.565131435185037, 20.0, 20.0 ],
+					"patching_rect" : [ 279.5, 342.500000000000057, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 244.0, 195.986411435185062, 20.0, 20.0 ],
 					"rounded" : 60.0,
@@ -378,8 +380,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 773.19513450935483, 106.732338564815223, 195.0, 23.0 ],
-					"text" : "read p-mo.regression.json, recall 1"
+					"patching_rect" : [ 773.19513450935483, 106.732338564815223, 189.0, 23.0 ],
+					"text" : "read p-mo.regressor.json, recall 1"
 				}
 
 			}
@@ -455,15 +457,15 @@
 					"fontface" : 1,
 					"fontname" : "Ableton Sans Bold Regular",
 					"id" : "obj-2",
-					"linecount" : 6,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 673.19513450935483, 272.118750000000261, 262.0, 93.0 ],
+					"patching_rect" : [ 673.19513450935483, 272.118750000000261, 262.0, 107.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 254.0, 21.5, 262.0, 93.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Start dsp, and theremin~ playback.\n2. Use xypad to control the sound parameters.\n3. (Optional) Set different scaling factors.\n4. (Optional) Route input to different outputs."
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 254.0, 21.5, 262.0, 107.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Start dsp, and theremin~ playback.\n2. Record input and target output pairs.\n3. Use xypad to control the sound parameters.\n4. (Optional) Set different scaling factors.\n5. (Optional) Route input to different outputs."
 				}
 
 			}
@@ -517,34 +519,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 768.528467842688201, 214.427083333333314, 85.0, 25.0 ],
+					"patching_rect" : [ 738.528467842688201, 214.427083333333314, 85.0, 25.0 ],
 					"text" : "load preset"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 10.0,
-					"hint" : "",
-					"id" : "obj-20",
-					"ignoreclick" : 1,
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 741.028467842688201, 216.927083333333314, 20.0, 20.0 ],
-					"rounded" : 60.0,
-					"text" : "2",
-					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
 				}
 
 			}
@@ -587,50 +563,14 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "p-mo.regression.json",
+					"autorestore" : "p-mo.regressor.json",
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 673.19513450935483, 167.5, 345.0, 23.0 ],
+					"patching_rect" : [ 673.19513450935483, 167.5, 341.0, 23.0 ],
 					"priority" : 					{
-						"mo.prepend::[1]::set" : -1,
-						"mo.prepend::[2]::set" : -1,
-						"mo.prepend::[3]::set" : -1,
-						"mo.prepend::[4]::set" : -1,
-						"mo.sliders[1]::[1]::polarity" : 1,
-						"mo.sliders[1]::[2]::polarity" : 1,
-						"mo.sliders[1]::[3]::polarity" : 1,
-						"mo.sliders[1]::[4]::polarity" : 1,
-						"mo.sliders[1]::[5]::polarity" : 1,
-						"mo.sliders[1]::[6]::polarity" : 1,
-						"mo.sliders[1]::[7]::polarity" : 1,
-						"mo.sliders[1]::[8]::polarity" : 1,
-						"mo.sliders[1]::[9]::polarity" : 1,
-						"mo.sliders[1]::[10]::polarity" : 1,
-						"mo.sliders[1]::[11]::polarity" : 1,
-						"mo.sliders[1]::[12]::polarity" : 1,
-						"mo.sliders[1]::[13]::polarity" : 1,
-						"mo.sliders[1]::[14]::polarity" : 1,
-						"mo.sliders[1]::[15]::polarity" : 1,
-						"mo.sliders[1]::[16]::polarity" : 1,
-						"mo.sliders[2]::[1]::polarity" : 1,
-						"mo.sliders[2]::[2]::polarity" : 1,
-						"mo.sliders[2]::[3]::polarity" : 1,
-						"mo.sliders[2]::[4]::polarity" : 1,
-						"mo.sliders[2]::[5]::polarity" : 1,
-						"mo.sliders[2]::[6]::polarity" : 1,
-						"mo.sliders[2]::[7]::polarity" : 1,
-						"mo.sliders[2]::[8]::polarity" : 1,
-						"mo.sliders[2]::[9]::polarity" : 1,
-						"mo.sliders[2]::[10]::polarity" : 1,
-						"mo.sliders[2]::[11]::polarity" : 1,
-						"mo.sliders[2]::[12]::polarity" : 1,
-						"mo.sliders[2]::[13]::polarity" : 1,
-						"mo.sliders[2]::[14]::polarity" : 1,
-						"mo.sliders[2]::[15]::polarity" : 1,
-						"mo.sliders[2]::[16]::polarity" : 1,
 						"mo.sliders::[1]::polarity" : 1,
 						"mo.sliders::[2]::polarity" : 1,
 						"mo.sliders::[3]::polarity" : 1,
@@ -646,8 +586,8 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"text" : "pattrstorage p-mo.regression @autorestore 1 @changemode 1",
-					"varname" : "p-mo.regression"
+					"text" : "pattrstorage p-mo.regressor @autorestore 1 @changemode 1",
+					"varname" : "p-mo.regressor"
 				}
 
 			}
@@ -660,7 +600,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 673.19513450935483, 211.927083333333258, 53.0, 30.0 ],
-					"pattrstorage" : "p-mo.regression"
+					"pattrstorage" : "p-mo.regressor"
 				}
 
 			}
@@ -1108,6 +1048,30 @@
 					"parameter_longname" : "live.dial[18]"
 				}
 ,
+				"obj-45::obj-4" : 				{
+					"parameter_longname" : "live.dial[30]"
+				}
+,
+				"obj-56::obj-12" : 				{
+					"parameter_longname" : "live.numbox[3]"
+				}
+,
+				"obj-56::obj-45" : 				{
+					"parameter_longname" : "live.gain~[2]"
+				}
+,
+				"obj-56::obj-56" : 				{
+					"parameter_longname" : "live.numbox[4]"
+				}
+,
+				"obj-56::obj-7" : 				{
+					"parameter_longname" : "live.text[54]"
+				}
+,
+				"obj-56::obj-8" : 				{
+					"parameter_longname" : "live.text[55]"
+				}
+,
 				"obj-7::obj-107::obj-26" : 				{
 					"parameter_longname" : "live.text[12]"
 				}
@@ -1424,13 +1388,6 @@
 				"name" : "mo.xypad.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../../modulo/patchers/input",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p-mo.regression.json",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/misc/presets",
-				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -40,7 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ 2, 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,

@@ -75,7 +75,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 230.707317113876343, 218.0, 20.0, 20.0 ],
+					"patching_rect" : [ 230.707317113876343, 217.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -89,7 +89,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 178.0, 217.0, 42.0, 23.0 ],
+					"patching_rect" : [ 180.0, 216.0, 42.0, 23.0 ],
 					"text" : "myo-1"
 				}
 
@@ -117,7 +117,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.707317113876343, 215.0, 130.0, 25.0 ],
+					"patching_rect" : [ 256.707317113876343, 214.0, 130.0, 25.0 ],
 					"text" : "set input MIDI port "
 				}
 
@@ -309,7 +309,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 187.5, 252.0, 123.499999999999943, 252.0 ],
+					"midpoints" : [ 189.5, 252.0, 123.499999999999943, 252.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
