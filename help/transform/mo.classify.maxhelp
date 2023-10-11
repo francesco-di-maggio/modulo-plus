@@ -111,8 +111,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 217.0, 88.0, 23.0 ],
-					"text" : "m-classify.json"
+					"patching_rect" : [ 390.0, 217.0, 107.0, 23.0 ],
+					"text" : "m-mo.classify.json"
 				}
 
 			}

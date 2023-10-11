@@ -95,8 +95,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 217.0, 89.0, 23.0 ],
-					"text" : "m-regress.json"
+					"patching_rect" : [ 390.0, 217.0, 109.0, 23.0 ],
+					"text" : "m-mo.regress.json"
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 676.0, 843.0 ],
+		"rect" : [ 34.0, 87.0, 676.0, 745.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -79,7 +79,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 20.0, 667.357147303669421, 214.0, 176.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 440.0, 479.441639788523048, 214.0, 176.0 ],
+					"presentation_rect" : [ 440.0, 478.110409947130734, 214.0, 176.0 ],
 					"varname" : "mo.fm~",
 					"viewvisibility" : 1
 				}
@@ -120,7 +120,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 310.0, 214.0, 176.065131435185094 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 292.220819894261524, 214.0, 176.0 ],
+					"presentation_rect" : [ 20.0, 297.552049735653839, 214.0, 176.0 ],
 					"varname" : "mo.regress",
 					"viewvisibility" : 1
 				}
@@ -165,7 +165,7 @@
 					"patching_rect" : [ 308.0, 640.000000000000114, 160.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 272.5, 345.486411435185119, 160.0, 39.0 ],
+					"presentation_rect" : [ 272.5, 349.484307943244062, 160.0, 39.0 ],
 					"text" : "• repeat steps 2, 3, and 4\n• (run model)"
 				}
 
@@ -187,7 +187,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 279.5, 649.500000000000114, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 244.0, 354.986411435185119, 20.0, 20.0 ],
+					"presentation_rect" : [ 244.0, 358.984307943244062, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "6",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -207,7 +207,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 308.0, 615.000000000000114, 108.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.5, 319.486411435185119, 108.0, 25.0 ],
+					"presentation_rect" : [ 272.5, 323.484307943244062, 108.0, 25.0 ],
 					"text" : "record example"
 				}
 
@@ -229,7 +229,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 279.5, 617.500000000000114, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 244.0, 321.986411435185119, 20.0, 20.0 ],
+					"presentation_rect" : [ 244.0, 325.984307943244062, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "5",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -243,13 +243,14 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"bubbleside" : 3,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 528.5, 154.065131435185037, 117.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.5, 542.5, 117.0, 25.0 ],
+					"presentation_rect" : [ 274.5, 147.5, 117.0, 25.0 ],
 					"text" : "set target output"
 				}
 
@@ -271,7 +272,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 500.0, 156.565131435185037, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 244.0, 545.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 400.0, 150.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -343,7 +344,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 269.0, 117.0, 214.0, 168.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 479.441639788523048, 214.0, 168.0 ],
+					"presentation_rect" : [ 440.0, 117.0, 214.0, 168.0 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -406,7 +407,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 754.57013450935483, 410.0, 74.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 534.0, 777.220819894261467, 74.0, 25.0 ],
+					"presentation_rect" : [ 344.0, 682.912459682784629, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -428,7 +429,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 727.07013450935483, 412.5, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 508.875, 779.720819894261467, 20.0, 20.0 ],
+					"presentation_rect" : [ 318.875, 685.412459682784629, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -448,7 +449,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 673.19513450935483, 400.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 767.220819894261467, 45.0, 45.0 ]
+					"presentation_rect" : [ 260.0, 672.912459682784629, 45.0, 45.0 ]
 				}
 
 			}
@@ -464,7 +465,7 @@
 					"patching_rect" : [ 673.19513450935483, 272.118750000000261, 262.0, 107.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 254.0, 21.5, 262.0, 107.0 ],
+					"presentation_rect" : [ 20.0, 515.0, 262.0, 107.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Start dsp, and theremin~ playback.\n2. Record input and target output pairs.\n3. Use xypad to control the sound parameters.\n4. (Optional) Set different scaling factors.\n5. (Optional) Route input to different outputs."
 				}
 
@@ -555,7 +556,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 492.70798413151573, 214.0, 168.006310475823057 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 654.662459682784629, 214.0, 168.006310475823057 ],
+					"presentation_rect" : [ 440.0, 297.552049735653839, 214.0, 168.006310475823057 ],
 					"varname" : "mo.scale",
 					"viewvisibility" : 1
 				}
@@ -856,8 +857,16 @@
 					"parameter_longname" : "live.text[61]"
 				}
 ,
+				"obj-31::obj-123::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[1]"
+				}
+,
 				"obj-31::obj-123::obj-35" : 				{
 					"parameter_longname" : "live.text[26]"
+				}
+,
+				"obj-31::obj-123::obj-8" : 				{
+					"parameter_longname" : "live.text[151]"
 				}
 ,
 				"obj-31::obj-1::obj-20" : 				{
@@ -1388,6 +1397,13 @@
 				"name" : "mo.xypad.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../../modulo/patchers/input",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "p-mo.regressor.json",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/misc/presets",
+				"patcherrelativepath" : "../../misc/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}

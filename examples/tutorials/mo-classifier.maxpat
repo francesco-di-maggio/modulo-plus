@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 676.0, 843.0 ],
+		"rect" : [ 34.0, 87.0, 687.0, 738.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 20.0, 500.0, 214.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 440.0, 390.0, 214.0, 265.0 ],
+					"presentation_rect" : [ 450.0, 292.220819894261524, 214.0, 265.0 ],
 					"varname" : "mo.playlist~",
 					"viewvisibility" : 1
 				}
@@ -79,7 +79,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 20.0, 780.0, 214.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 440.0, 666.662459682784629, 214.0, 57.5 ],
+					"presentation_rect" : [ 450.0, 568.883279577046096, 214.0, 57.5 ],
 					"varname" : "mo.dac~",
 					"viewvisibility" : 1
 				}
@@ -382,7 +382,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 754.57013450935483, 451.065131435185094, 74.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 534.0, 777.220819894261467, 74.0, 25.0 ],
+					"presentation_rect" : [ 544.0, 679.441639788522934, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -404,7 +404,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 727.07013450935483, 453.565131435185094, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 508.875, 779.720819894261467, 20.0, 20.0 ],
+					"presentation_rect" : [ 518.875, 681.941639788522934, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -424,7 +424,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 673.19513450935483, 441.065131435185094, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 767.220819894261467, 45.0, 45.0 ]
+					"presentation_rect" : [ 460.0, 669.441639788522934, 45.0, 45.0 ]
 				}
 
 			}

@@ -56,7 +56,7 @@
 					"mo.scale::[6]::output-min" : [ 0.0 ],
 					"mo.scale::[6]::output-max" : [ 1.0 ],
 					"mo.scale::[6]::mode" : [ 0.0 ],
-					"mo.xypad::xypad" : [ 102, 26 ],
+					"mo.xypad::xypad" : [ 0, 0 ],
 					"mo.xypad::ylock" : [ 0.0 ],
 					"mo.xypad::xlock" : [ 0.0 ],
 					"mo.xypad::mute" : [ 0.0 ],

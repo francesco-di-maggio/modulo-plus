@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 476.0, 547.0 ],
+		"rect" : [ 34.0, 87.0, 483.0, 549.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
@@ -92,7 +92,7 @@
 					"patching_rect" : [ 280.0, 159.4375, 222.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 240.0, 87.0, 222.0, 93.0 ],
+					"presentation_rect" : [ 246.0, 87.0, 222.0, 93.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Set number of output dimensions.\n2. Set maximum dataset size (maxsize).\n3. Set training rate (trainrate).\n4. Turn on random generator."
 				}
 
@@ -139,7 +139,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 606.25, 214.0, 265.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 262.875, 214.0, 265.0 ],
+					"presentation_rect" : [ 246.0, 262.875, 214.0, 265.0 ],
 					"varname" : "mo.scope",
 					"viewvisibility" : 1
 				}
@@ -163,7 +163,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 538.3125, 214.0, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 194.9375, 214.0, 57.5 ],
+					"presentation_rect" : [ 246.0, 194.9375, 214.0, 57.5 ],
 					"varname" : "mo.pca",
 					"viewvisibility" : 1
 				}
@@ -196,7 +196,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4 ],
+					"args" : [ 4, "@rate", 4000 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -542,6 +542,14 @@
 					"parameter_longname" : "live.numbox[6]"
 				}
 ,
+				"obj-2::obj-24" : 				{
+					"parameter_longname" : "live.text[43]"
+				}
+,
+				"obj-2::obj-41" : 				{
+					"parameter_longname" : "live.text[8]"
+				}
+,
 				"obj-2::obj-7" : 				{
 					"parameter_longname" : "live.text[118]"
 				}
@@ -588,6 +596,10 @@
 ,
 				"obj-59::obj-123::obj-35" : 				{
 					"parameter_longname" : "live.text[54]"
+				}
+,
+				"obj-59::obj-123::obj-8" : 				{
+					"parameter_longname" : "live.text[151]"
 				}
 ,
 				"obj-59::obj-1::obj-20" : 				{
