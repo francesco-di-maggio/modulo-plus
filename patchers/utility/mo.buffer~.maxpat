@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 176.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 176.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1868,7 +1868,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 159.75, 278.499999999999943, 100.0, 20.0 ],
 					"pattrmode" : 1,
-					"prefix" : "Macintosh HD:/Users/Home/Documents/Max 8/Packages/modulo-support/patchers/media/",
+					"prefix" : "Macintosh HD:/Users/Home/Documents/Max 8/Packages/modulo-support/misc/media/",
 					"presentation" : 1,
 					"presentation_rect" : [ 109.107140948880442, 135.062851072478054, 100.209121108055172, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1892,7 +1892,7 @@
 					"patching_rect" : [ 1143.0, 590.461840538143065, 44.0, 15.0 ],
 					"pictures" : [ "loop.svg", "loop.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 166.505063971389035, 113.0, 43.280694097280559, 20.009484742059271 ],
+					"presentation_rect" : [ 166.505063971389035, 113.0, 43.280694097280559, 15.160999749078314 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1958,7 +1958,7 @@
 					"patching_rect" : [ 1110.0, 455.461840538143065, 44.0, 15.0 ],
 					"pictures" : [ "play.svg", "stop.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.107140948880442, 113.0, 52.712550610303879, 20.0342638194561 ],
+					"presentation_rect" : [ 108.107140948880442, 113.0, 52.712550610303879, 15.185778826475143 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -2000,7 +2000,7 @@
 					"texton" : "stop",
 					"usepicture" : 1,
 					"usesvgviewbox" : 1,
-					"varname" : "PlayStop-TG[1]"
+					"varname" : "playstop-"
 				}
 
 			}
@@ -2249,7 +2249,8 @@
 					"patching_rect" : [ 819.0, 71.0, 44.0, 15.0 ],
 					"pictures" : [ "record.svg", "record.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.13898915052414, 113.0, 95.172227412462206, 20.0 ],
+					"presentation_rect" : [ 3.5, 113.0, 95.172227412462206, 15.151515007019043 ],
+					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""

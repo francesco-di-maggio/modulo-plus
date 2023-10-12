@@ -499,14 +499,23 @@
 						"mo.sends::[7]::send" : -1,
 						"mo.sends::[8]::send" : -1,
 						"mo.sends::[9]::send" : -1,
+						"mo.sliders::[1]::slider" : 1,
 						"mo.sliders::[1]::polarity" : 1,
+						"mo.sliders::[2]::slider" : 1,
 						"mo.sliders::[2]::polarity" : 1,
+						"mo.sliders::[3]::slider" : 1,
 						"mo.sliders::[3]::polarity" : 1,
+						"mo.sliders::[4]::slider" : 1,
 						"mo.sliders::[4]::polarity" : 1,
+						"mo.sliders::[5]::slider" : 1,
 						"mo.sliders::[5]::polarity" : 1,
+						"mo.sliders::[6]::slider" : 1,
 						"mo.sliders::[6]::polarity" : 1,
+						"mo.sliders::[7]::slider" : 1,
 						"mo.sliders::[7]::polarity" : 1,
+						"mo.sliders::[8]::slider" : 1,
 						"mo.sliders::[8]::polarity" : 1,
+						"mo.sliders::[9]::slider" : 1,
 						"mo.sliders::[9]::polarity" : 1,
 						"mo.granulator~::folder" : -1,
 						"mo.sends[1]::[1]::send" : -1,
@@ -1639,12 +1648,32 @@
 					"parameter_longname" : "live.text[180]"
 				}
 ,
+				"obj-8::obj-152" : 				{
+					"parameter_longname" : "live.text[193]"
+				}
+,
+				"obj-8::obj-155" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
 				"obj-8::obj-163" : 				{
 					"parameter_longname" : "live.text[89]"
 				}
 ,
+				"obj-8::obj-185" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
 				"obj-8::obj-188" : 				{
 					"parameter_longname" : "live.text[140]"
+				}
+,
+				"obj-8::obj-19" : 				{
+					"parameter_longname" : "live.numbox[56]"
+				}
+,
+				"obj-8::obj-236" : 				{
+					"parameter_longname" : "live.numbox[2]"
 				}
 ,
 				"obj-8::obj-245" : 				{
@@ -1661,6 +1690,10 @@
 ,
 				"obj-8::obj-249" : 				{
 					"parameter_longname" : "live.text[141]"
+				}
+,
+				"obj-8::obj-5" : 				{
+					"parameter_longname" : "live.text[244]"
 				}
 ,
 				"obj-8::obj-88" : 				{
@@ -1793,8 +1826,8 @@
 			}
 , 			{
 				"name" : "record.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo-support/misc/icons",
-				"patcherrelativepath" : "../../../modulo-support/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../../modulo/misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
