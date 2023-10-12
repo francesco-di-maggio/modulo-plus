@@ -686,8 +686,8 @@
 			}
 , 			{
 				"name" : "mo.onepole~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers/utility",
-				"patcherrelativepath" : "../../patchers/utility",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers/transform",
+				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}

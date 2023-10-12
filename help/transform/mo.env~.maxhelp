@@ -144,13 +144,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 484.0, 70.0, 37.0 ],
-					"text" : "0.515982 0.47354"
+					"patching_rect" : [ 41.0, 484.0, 70.0, 23.0 ],
+					"text" : "0."
 				}
 
 			}

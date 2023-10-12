@@ -499,31 +499,43 @@
 						"mo.sends::[7]::send" : -1,
 						"mo.sends::[8]::send" : -1,
 						"mo.sends::[9]::send" : -1,
+						"mo.sends::[16]::send" : -1,
+						"mo.sends::[15]::send" : -1,
+						"mo.sends::[14]::send" : -1,
+						"mo.sends::[13]::send" : -1,
+						"mo.sends::[12]::send" : -1,
+						"mo.sends::[11]::send" : -1,
+						"mo.sends::[10]::send" : -1,
 						"mo.sliders::[1]::slider" : 1,
-						"mo.sliders::[1]::polarity" : 1,
 						"mo.sliders::[2]::slider" : 1,
-						"mo.sliders::[2]::polarity" : 1,
 						"mo.sliders::[3]::slider" : 1,
-						"mo.sliders::[3]::polarity" : 1,
 						"mo.sliders::[4]::slider" : 1,
-						"mo.sliders::[4]::polarity" : 1,
 						"mo.sliders::[5]::slider" : 1,
-						"mo.sliders::[5]::polarity" : 1,
 						"mo.sliders::[6]::slider" : 1,
-						"mo.sliders::[6]::polarity" : 1,
 						"mo.sliders::[7]::slider" : 1,
-						"mo.sliders::[7]::polarity" : 1,
 						"mo.sliders::[8]::slider" : 1,
-						"mo.sliders::[8]::polarity" : 1,
 						"mo.sliders::[9]::slider" : 1,
-						"mo.sliders::[9]::polarity" : 1,
 						"mo.granulator~::folder" : -1,
 						"mo.sends[1]::[1]::send" : -1,
-						"mo.sends[1]::[2]::send" : -1
+						"mo.sends[1]::[2]::send" : -1,
+						"mo.sends[1]::[16]::send" : -1,
+						"mo.sends[1]::[15]::send" : -1,
+						"mo.sends[1]::[14]::send" : -1,
+						"mo.sends[1]::[13]::send" : -1,
+						"mo.sends[1]::[12]::send" : -1,
+						"mo.sends[1]::[11]::send" : -1,
+						"mo.sends[1]::[10]::send" : -1,
+						"mo.sends[1]::[9]::send" : -1,
+						"mo.sends[1]::[8]::send" : -1,
+						"mo.sends[1]::[7]::send" : -1,
+						"mo.sends[1]::[6]::send" : -1,
+						"mo.sends[1]::[5]::send" : -1,
+						"mo.sends[1]::[4]::send" : -1,
+						"mo.sends[1]::[3]::send" : -1
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 100, 413, 948 ],
+						"client_rect" : [ 4, 45, 358, 173 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -1656,8 +1668,16 @@
 					"parameter_longname" : "live.numbox[6]"
 				}
 ,
+				"obj-8::obj-161" : 				{
+					"parameter_range" : [ 0.0, 4000.0 ]
+				}
+,
 				"obj-8::obj-163" : 				{
 					"parameter_longname" : "live.text[89]"
+				}
+,
+				"obj-8::obj-169" : 				{
+					"parameter_range" : [ 0.0, 4000.0 ]
 				}
 ,
 				"obj-8::obj-185" : 				{
@@ -1735,8 +1755,8 @@
 			}
 , 			{
 				"name" : "a-mo.send.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/misc/abstractions",
+				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1777,8 +1797,8 @@
 			}
 , 			{
 				"name" : "mo.granulator~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers/sound",
-				"patcherrelativepath" : "../../patchers/sound",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}

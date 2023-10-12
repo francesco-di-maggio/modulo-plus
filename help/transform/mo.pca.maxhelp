@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "mo.main",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -99,7 +100,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 291.0, 236.0, 117.0, 25.0 ],
-					"presentation_linecount" : 2,
 					"text" : "number of voices"
 				}
 
@@ -449,8 +449,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.906856800000355, 501.0, 94.093143199999645, 23.0 ],
-					"text" : "0.670864"
+					"patching_rect" : [ 40.906856800000355, 501.0, 94.093143199999645, 23.0 ]
 				}
 
 			}
@@ -824,6 +823,14 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-24" : 				{
+					"parameter_longname" : "live.text[43]"
+				}
+,
+				"obj-2::obj-41" : 				{
+					"parameter_longname" : "live.text[8]"
+				}
+,
 				"obj-2::obj-7" : 				{
 					"parameter_longname" : "live.text[118]"
 				}

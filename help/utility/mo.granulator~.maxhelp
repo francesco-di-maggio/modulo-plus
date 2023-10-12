@@ -58,7 +58,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 1312.0, 697.0 ],
+						"rect" : [ 0.0, 26.0, 1312.0, 697.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -120,7 +120,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1163.114396757575605, 298.839210189878941, 83.0, 25.0 ],
+									"patching_rect" : [ 1159.114396757575605, 298.839210189878941, 83.0, 25.0 ],
 									"text" : "load folder"
 								}
 
@@ -132,7 +132,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1060.0, 299.839210189878941, 95.0, 23.0 ],
+									"patching_rect" : [ 1056.0, 299.839210189878941, 95.0, 23.0 ],
 									"text" : "C74/media/msp"
 								}
 
@@ -144,7 +144,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1060.0, 343.775196919838322, 88.0, 23.0 ],
+									"patching_rect" : [ 1056.0, 343.775196919838322, 88.0, 23.0 ],
 									"text" : "prepend folder"
 								}
 
@@ -156,7 +156,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 538.0, 165.0, 55.0, 23.0 ],
+									"patching_rect" : [ 534.0, 165.0, 55.0, 23.0 ],
 									"text" : "mc.adc~"
 								}
 
@@ -171,7 +171,7 @@
 									"orientation" : 1,
 									"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 538.0, 252.0, 136.0, 36.0 ],
+									"patching_rect" : [ 534.0, 252.0, 136.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_initial" : [ -20 ],
@@ -292,7 +292,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 951.646299781249581, 299.839210189878941, 89.0, 25.0 ],
+									"patching_rect" : [ 947.646299781249581, 299.839210189878941, 89.0, 25.0 ],
 									"text" : "load sample"
 								}
 
@@ -312,7 +312,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 924.49599144791614, 302.339210189878941, 20.0, 20.0 ],
+									"patching_rect" : [ 920.49599144791614, 302.339210189878941, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -330,7 +330,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 849.531903023673976, 300.839210189878941, 68.0, 23.0 ],
+									"patching_rect" : [ 845.531903023673976, 300.839210189878941, 68.0, 23.0 ],
 									"text" : "brushes.aif"
 								}
 
@@ -342,7 +342,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 849.531903023673976, 344.775196919838322, 73.0, 23.0 ],
+									"patching_rect" : [ 845.531903023673976, 344.775196919838322, 73.0, 23.0 ],
 									"text" : "prepend file"
 								}
 
@@ -379,7 +379,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 849.531903023673976, 246.903223459919559, 76.0, 25.0 ],
+									"patching_rect" : [ 845.531903023673976, 246.903223459919559, 76.0, 25.0 ],
 									"text" : "set name "
 								}
 
@@ -391,7 +391,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 809.5, 247.903223459919559, 29.5, 23.0 ],
+									"patching_rect" : [ 805.5, 247.903223459919559, 29.5, 23.0 ],
 									"text" : "\" \""
 								}
 
@@ -403,7 +403,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 733.0, 248.903223459919559, 65.0, 23.0 ],
+									"patching_rect" : [ 729.0, 248.903223459919559, 65.0, 23.0 ],
 									"text" : "granulator"
 								}
 
@@ -415,7 +415,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 733.0, 300.839210189878941, 91.0, 23.0 ],
+									"patching_rect" : [ 729.0, 300.839210189878941, 91.0, 23.0 ],
 									"text" : "prepend device"
 								}
 
@@ -443,8 +443,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 83.0, 325.0, 23.0 ],
-									"text" : "An eight-voices phase shifted granular synthesizer."
+									"patching_rect" : [ 9.0, 83.0, 318.0, 23.0 ],
+									"text" : "A stereo eight-phase shifted granular synthesizer."
 								}
 
 							}
@@ -479,7 +479,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 537.5, 394.678420379757881, 214.0, 176.0 ],
+									"patching_rect" : [ 533.5, 394.678420379757881, 214.0, 176.0 ],
 									"varname" : "bbdmi.buffer~",
 									"viewvisibility" : 1
 								}
@@ -505,7 +505,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 0 ],
-									"midpoints" : [ 547.5, 291.0, 547.0, 291.0 ],
+									"midpoints" : [ 543.5, 291.0, 543.0, 291.0 ],
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -513,7 +513,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
-									"midpoints" : [ 547.5, 189.0, 547.5, 189.0 ],
+									"midpoints" : [ 543.5, 189.0, 543.5, 189.0 ],
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -521,7 +521,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
-									"midpoints" : [ 859.031903023673976, 324.0, 859.031903023673976, 324.0 ],
+									"midpoints" : [ 855.031903023673976, 324.0, 855.031903023673976, 324.0 ],
 									"source" : [ "obj-26", 0 ]
 								}
 
@@ -529,7 +529,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-32", 0 ],
-									"midpoints" : [ 819.0, 285.0, 742.5, 285.0 ],
+									"midpoints" : [ 815.0, 285.0, 738.5, 285.0 ],
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -537,7 +537,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 1 ],
-									"midpoints" : [ 859.031903023673976, 381.0, 742.0, 381.0 ],
+									"midpoints" : [ 855.031903023673976, 381.0, 738.0, 381.0 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -545,7 +545,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-32", 0 ],
-									"midpoints" : [ 742.5, 273.0, 742.5, 273.0 ],
+									"midpoints" : [ 738.5, 273.0, 738.5, 273.0 ],
 									"source" : [ "obj-31", 0 ]
 								}
 
@@ -553,7 +553,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-38", 1 ],
-									"midpoints" : [ 742.5, 381.0, 461.5, 381.0 ],
+									"midpoints" : [ 738.5, 381.0, 461.5, 381.0 ],
 									"order" : 0,
 									"source" : [ "obj-32", 0 ]
 								}
@@ -562,7 +562,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 1 ],
-									"midpoints" : [ 742.5, 324.0, 742.0, 324.0 ],
+									"midpoints" : [ 738.5, 324.0, 738.0, 324.0 ],
 									"order" : 1,
 									"source" : [ "obj-32", 0 ]
 								}
@@ -579,7 +579,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
-									"midpoints" : [ 1069.5, 324.0, 1069.5, 324.0 ],
+									"midpoints" : [ 1065.5, 324.0, 1065.5, 324.0 ],
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -587,7 +587,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 1 ],
-									"midpoints" : [ 1069.5, 381.0, 742.0, 381.0 ],
+									"midpoints" : [ 1065.5, 381.0, 738.0, 381.0 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -640,7 +640,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1312.0, 697.0 ],
+						"rect" : [ 34.0, 113.0, 1312.0, 697.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -987,8 +987,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 83.0, 325.0, 23.0 ],
-									"text" : "An eight-voices phase shifted granular synthesizer."
+									"patching_rect" : [ 9.0, 83.0, 318.0, 23.0 ],
+									"text" : "A stereo eight-phase shifted granular synthesizer."
 								}
 
 							}
@@ -1064,7 +1064,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 537.5, 207.0, 24.0, 24.0 ]
+									"patching_rect" : [ 533.5, 207.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1238,7 +1238,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 538.045328136363423, 250.0, 55.0, 23.0 ],
+									"patching_rect" : [ 534.045328136363423, 250.0, 55.0, 23.0 ],
 									"text" : "mode $1"
 								}
 
@@ -1442,7 +1442,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-38", 1 ],
-									"midpoints" : [ 547.545328136363423, 381.0, 461.5, 381.0 ],
+									"midpoints" : [ 543.545328136363423, 381.0, 461.5, 381.0 ],
 									"source" : [ "obj-52", 0 ]
 								}
 
@@ -1562,7 +1562,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-52", 0 ],
-									"midpoints" : [ 547.0, 234.0, 547.545328136363423, 234.0 ],
+									"midpoints" : [ 543.0, 234.0, 543.545328136363423, 234.0 ],
 									"source" : [ "obj-66", 0 ]
 								}
 
@@ -1752,7 +1752,8 @@
 				}
 ,
 				"obj-1::obj-38::obj-161" : 				{
-					"parameter_longname" : "live.numbox[71]"
+					"parameter_longname" : "live.numbox[71]",
+					"parameter_range" : [ 0.0, 4000.0 ]
 				}
 ,
 				"obj-1::obj-38::obj-163" : 				{
@@ -1772,7 +1773,8 @@
 				}
 ,
 				"obj-1::obj-38::obj-169" : 				{
-					"parameter_longname" : "live.numbox[55]"
+					"parameter_longname" : "live.numbox[55]",
+					"parameter_range" : [ 0.0, 4000.0 ]
 				}
 ,
 				"obj-1::obj-38::obj-171" : 				{
@@ -1817,6 +1819,38 @@
 ,
 				"obj-1::obj-38::obj-88" : 				{
 					"parameter_longname" : "live.text[139]"
+				}
+,
+				"obj-1::obj-39::obj-12" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-1::obj-39::obj-138" : 				{
+					"parameter_longname" : "live.numbox[58]"
+				}
+,
+				"obj-1::obj-39::obj-141" : 				{
+					"parameter_longname" : "live.text[211]"
+				}
+,
+				"obj-1::obj-39::obj-21" : 				{
+					"parameter_longname" : "live.text[233]"
+				}
+,
+				"obj-1::obj-39::obj-22" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
+				"obj-1::obj-39::obj-23" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-1::obj-39::obj-33" : 				{
+					"parameter_longname" : "live.text[72]"
+				}
+,
+				"obj-1::obj-39::obj-53" : 				{
+					"parameter_longname" : "live.text[40]"
 				}
 ,
 				"obj-9::obj-17::obj-107::obj-26" : 				{
@@ -2016,7 +2050,8 @@
 				}
 ,
 				"obj-9::obj-38::obj-161" : 				{
-					"parameter_longname" : "live.numbox[34]"
+					"parameter_longname" : "live.numbox[34]",
+					"parameter_range" : [ 0.0, 4000.0 ]
 				}
 ,
 				"obj-9::obj-38::obj-163" : 				{
@@ -2036,7 +2071,8 @@
 				}
 ,
 				"obj-9::obj-38::obj-169" : 				{
-					"parameter_longname" : "live.numbox[19]"
+					"parameter_longname" : "live.numbox[19]",
+					"parameter_range" : [ 0.0, 4000.0 ]
 				}
 ,
 				"obj-9::obj-38::obj-171" : 				{
@@ -2138,8 +2174,8 @@
 			}
 , 			{
 				"name" : "mo.granulator~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers/sound",
-				"patcherrelativepath" : "../../patchers/sound",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2159,8 +2195,8 @@
 			}
 , 			{
 				"name" : "record.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo-support/misc/icons",
-				"patcherrelativepath" : "../../../modulo-support/misc/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../../modulo/misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
