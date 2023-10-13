@@ -1,0 +1,25 @@
+{	
+	"name" : "modulo-plus",
+	"displayname" : "",
+	"version" : "1.0.1	",
+	"author" : "Francesco Di Maggio",
+	"description" : "A Creative Extension to the modulo Package.",
+	"tags" : [ "digital", "musical",w "instruments", "design", "modular", "multichannel", "interactive", "machine learning" ],
+	"website" : "https://francescodimaggio.nl",
+	"extensible" : 0,
+	"extends" : "",
+	"max_version_min" : "8.3.0", 
+	"max_version_max" : "none",
+	"os" : {
+		"macintosh" : {
+			"min_version" : "none",
+			"platform" : [ "x64", "aarch64" ]
+		},
+		"windows" : {
+			"min_version" : "none",
+			"platform" : [ "x64" ]
+		}
+	},
+	"homepatcher" : "modulo.maxpat",
+	"forcerestart" : 0
+}

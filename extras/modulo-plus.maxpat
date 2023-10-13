@@ -4665,8 +4665,8 @@
 					"patching_rect" : [ 21.5, 203.0, 411.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 11.446428567171097, 147.665829000000002, 411.0, 35.0 ],
-					"text" : "Extend your musical creativity with interactive machine learning algorithms for multidimensional mapping, and ready-to-use interfaces."
+					"presentation_rect" : [ 11.446428567171097, 147.665829000000002, 413.0, 35.0 ],
+					"text" : "Extend your musical creativity with interactive machine learning algorithms, mapping modules, ready-to-use instruments and interfaces."
 				}
 
 			}
