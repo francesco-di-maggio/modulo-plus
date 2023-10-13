@@ -3,7 +3,8 @@
 # modulo-plus
 
 ## About 
-Add-on to the [```modulo```](https://github.com/francesco-di-maggio/modulo) Max Package. 
+
+A Creative Extension to the [```modulo```](https://github.com/francesco-di-maggio/modulo) Package. 
 
 ## Installation
 

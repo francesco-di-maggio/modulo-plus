@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1044.0, 686.0 ],
+		"rect" : [ 34.0, 87.0, 1044.0, 670.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -137,7 +137,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 535.0, 69.0, 123.0 ],
+					"patching_rect" : [ 41.0, 525.0, 69.0, 123.0 ],
 					"rounded" : 0.0,
 					"tabcolor" : [ 0.094117647058824, 0.094117647058824, 0.094117647058824, 1.0 ],
 					"tabs" : [ "1", "2", "3", "4" ]

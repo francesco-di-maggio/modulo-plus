@@ -10,15 +10,15 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 370.0, 541.0 ],
+		"rect" : [ 34.0, 87.0, 370.0, 615.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,8 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
-		"helpsidebarclosed" : 1,
+		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -46,7 +45,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 473.0, 48.0, 48.0 ]
+					"patching_rect" : [ 176.0, 508.5, 48.0, 48.0 ]
 				}
 
 			}
@@ -59,7 +58,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 263.714745454545209, 484.0, 74.0, 25.0 ],
+					"patching_rect" : [ 263.714745454545209, 519.5, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -79,7 +78,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 235.0, 487.0, 20.0, 20.0 ],
+					"patching_rect" : [ 235.0, 522.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -143,13 +142,21 @@
 			}
 , 			{
 				"box" : 				{
+					"candycane" : 8,
+					"contdata" : 1,
 					"id" : "obj-3",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 484.0, 70.0, 23.0 ],
-					"text" : "0."
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 41.0, 471.0, 69.0, 123.0 ],
+					"setminmax" : [ 0.0, 1.0 ],
+					"setstyle" : 3,
+					"signed" : 1,
+					"size" : 2,
+					"spacing" : 2,
+					"varname" : "mo.sliders[1]"
 				}
 
 			}
@@ -322,8 +329,8 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 50.5, 471.0, 101.5, 471.0 ],
+					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 50.5, 459.0, 50.5, 459.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 

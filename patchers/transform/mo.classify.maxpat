@@ -601,7 +601,7 @@
 				"box" : 				{
 					"comment" : "(list) output",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -808,7 +808,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 22.0, 18.000007233630072, 30.0, 30.0 ]
 								}
 
@@ -1107,6 +1107,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-89",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -1178,6 +1179,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-35",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -1904,7 +1906,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1976,7 +1978,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 25.0, 25.000003408919653, 30.0, 30.0 ]
 								}
 
@@ -2064,6 +2066,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-89",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -2301,7 +2304,7 @@
 				"box" : 				{
 					"comment" : "(list) output/prediction",
 					"id" : "obj-98",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2313,11 +2316,11 @@
 				"box" : 				{
 					"comment" : "(list) output",
 					"id" : "obj-42",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 564.205304554104941, 30.0, 30.0, 30.0 ]
 				}
 
@@ -2326,7 +2329,7 @@
 				"box" : 				{
 					"comment" : "(list) input",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3174,6 +3177,7 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-99",
+					"ignoreclick" : 1,
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -3472,7 +3476,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 334.227271606361228, 405.0, 50.0, 22.0 ],
-									"text" : "A"
+									"text" : "3"
 								}
 
 							}
@@ -3871,7 +3875,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 55.000008119467793, 253.0, 50.0, 22.0 ],
-													"text" : "21"
+													"text" : "20"
 												}
 
 											}
@@ -6075,63 +6079,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-113" : [ "live.text[9]", "live.text", 0 ],
-			"obj-147" : [ "live.text[51]", "live.text", 0 ],
-			"obj-21" : [ "live.text[113]", "number", 0 ],
-			"obj-26" : [ "number[6]", "number", 0 ],
-			"obj-37" : [ "live.text[8]", "number", 0 ],
-			"obj-40" : [ "number[3]", "number[1]", 0 ],
-			"obj-41" : [ "live.text[4]", "live.text", 0 ],
-			"obj-45" : [ "live.text[18]", "live.text", 0 ],
-			"obj-46" : [ "live.text[22]", "live.text", 0 ],
-			"obj-54" : [ "live.text[2]", "live.text", 0 ],
-			"obj-55" : [ "live.text[112]", "live.text", 0 ],
-			"obj-66" : [ "number[5]", "number", 0 ],
-			"obj-67" : [ "live.text[10]", "live.text", 0 ],
-			"obj-70" : [ "live.numbox[12]", "live.numbox", 0 ],
-			"obj-84" : [ "live.numbox[8]", "live.numbox", 0 ],
-			"obj-9" : [ "live.numbox", "live.text", 0 ],
-			"obj-92" : [ "live.text[5]", "live.text", 0 ],
-			"obj-93" : [ "live.text[11]", "live.text", 0 ],
-			"obj-99" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo/misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fluid.dataset~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.labelset~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.list2buf.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.mlpclassifier~.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
