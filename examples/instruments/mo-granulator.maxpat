@@ -491,15 +491,15 @@
 					"patching_rect" : [ 520.166666666666742, 648.226974681019783, 330.0, 23.0 ],
 					"priority" : 					{
 						"mo.sends::set" : -1,
-						"mo.sends::[1]::send" : -1,
-						"mo.sends::[2]::send" : -1,
-						"mo.sends::[3]::send" : -1,
-						"mo.sends::[4]::send" : -1,
-						"mo.sends::[5]::send" : -1,
-						"mo.sends::[6]::send" : -1,
-						"mo.sends::[7]::send" : -1,
-						"mo.sends::[8]::send" : -1,
-						"mo.sends::[9]::send" : -1,
+						"mo.sends::[1]::send" : 1,
+						"mo.sends::[2]::send" : 1,
+						"mo.sends::[3]::send" : 1,
+						"mo.sends::[4]::send" : 1,
+						"mo.sends::[5]::send" : 1,
+						"mo.sends::[6]::send" : 1,
+						"mo.sends::[7]::send" : 1,
+						"mo.sends::[8]::send" : 1,
+						"mo.sends::[9]::send" : 1,
 						"mo.sliders::[1]::slider" : 1,
 						"mo.sliders::[2]::slider" : 1,
 						"mo.sliders::[3]::slider" : 1,
@@ -511,8 +511,8 @@
 						"mo.sliders::[9]::slider" : 1,
 						"mo.granulator~::folder" : -1,
 						"mo.sends[1]::set" : -1,
-						"mo.sends[1]::[1]::send" : -1,
-						"mo.sends[1]::[2]::send" : -1
+						"mo.sends[1]::[1]::send" : 1,
+						"mo.sends[1]::[2]::send" : 1
 					}
 ,
 					"saved_object_attributes" : 					{

@@ -60,7 +60,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.0, 590.0, 60.0, 23.0 ]
+					"patching_rect" : [ 130.0, 590.0, 60.0, 23.0 ],
+					"text" : "1-output"
 				}
 
 			}
@@ -295,7 +296,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 547.500000000000114, 98.0, 23.0 ],
-					"text" : "-0.05814"
+					"text" : "0.697674"
 				}
 
 			}
@@ -451,6 +452,10 @@
 			"parameter_overrides" : 			{
 				"obj-22::obj-107::obj-1" : 				{
 					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-22::obj-123::obj-1" : 				{
+					"parameter_longname" : "live.text[220]"
 				}
 ,
 				"obj-22::obj-15" : 				{

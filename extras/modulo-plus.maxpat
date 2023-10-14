@@ -1540,6 +1540,7 @@
 												"box" : 												{
 													"data" : 													{
 														"Granulator" : [ "mo-granulator" ],
+														"Looper" : [ "mo-looper" ],
 														"Classifier" : [ "mo-classifier" ],
 														"PCA" : [ "mo-pca" ],
 														"Regressor" : [ "mo-regressor" ],
@@ -1901,12 +1902,12 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"Granulator" : "play an eight-shifted voices granular synthesizer",
-														"Sampler" : "",
-														"Classifier" : "",
-														"PCA" : "",
-														"Regressor" : "",
-														"Sonifier" : ""
+														"Granulator" : "play an eight phase-shifted voices granular synthesizer",
+														"Looper" : "record multichannel live audio into a looper",
+														"Classifier" : "train a model to playback a specified sample based on new input data",
+														"PCA" : "turn input data into lower dimensions",
+														"Regressor" : "train a model to control sound parameters based on new input data",
+														"Sonifier" : "turn input data into sound"
 													}
 ,
 													"id" : "obj-87",
@@ -2321,7 +2322,7 @@
 									"patching_rect" : [ 96.0, 657.80976314285715, 454.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 13.190476208925247, 156.75, 402.523809522390366, 20.0 ],
-									"text" : "… click on any module to see its description… double-click to open it…",
+									"text" : "-  an eight-shifted voices granular synthesizer  -",
 									"textjustification" : 1
 								}
 
@@ -2449,7 +2450,7 @@
 												"box" : 												{
 													"data" : 													{
 														"mo.myo" : "acquire and stream data from a myo armband device",
-														"mo.rand~" : "a multichannel audio signals random generator",
+														"mo.rand~" : "a multichannel audio signal random generator",
 														"mo.receives" : "receive a list of data from specified send objects",
 														"mo.sends" : "send a list of data to specified receive objects",
 														"mo.bayesian" : "extract envelope from data through bayesian filter estimation",
@@ -2458,7 +2459,8 @@
 														"mo.pca" : "perform dimensionality reduction through principal component analysis",
 														"mo.regress" : "predicting continuous values in response to new input data",
 														"mo.buffer~" : "record, store and playback multichannel audio signal, or load a sample",
-														"mo.granulator~" : "a stereo eight-phase shifted granular synthesizer",
+														"mo.granulator~" : "an eight phase-shifted voices granular synthesizer",
+														"mo.looper~" : "a multichannel audio looper with playback and pitch control",
 														"mo.onepole~" : "a multichannel single-pole lowpass filter (-6dB/octave)"
 													}
 ,
@@ -2767,7 +2769,7 @@
 									"patching_rect" : [ 25.5, 397.000000000000057, 511.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 10.190476208925247, 65.5, 404.809523791074753, 20.0 ],
-									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials."
+									"text" : "Handle auxiliary functions, such as monitoring, visualizing and recording data."
 								}
 
 							}
@@ -3161,7 +3163,7 @@
 														"input" : [ "mo.myo", "mo.rand~" ],
 														"route" : [ "mo.receives", "mo.sends" ],
 														"transform" : [ "mo.bayesian", "mo.classify", "mo.env~", "mo.onepole~", "mo.pca", "mo.regress" ],
-														"utility" : [ "mo.buffer~", "mo.granulator~" ]
+														"utility" : [ "mo.buffer~", "mo.granulator~", "mo.looper~" ]
 													}
 ,
 													"id" : "obj-87",
@@ -3374,7 +3376,7 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"instruments" : [ "Granulator", "Sampler" ],
+														"instruments" : [ "Granulator", "Looper" ],
 														"tutorials" : [ "Classifier", "PCA", "Regressor", "Sonifier" ]
 													}
 ,
@@ -3512,7 +3514,7 @@
 									"id" : "obj-12",
 									"livemode" : 1,
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 4,
+									"num_lines_patching" : 2,
 									"num_lines_presentation" : 2,
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3541,7 +3543,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Granulator", "Sampler" ],
+											"parameter_enum" : [ "Granulator", "Looper" ],
 											"parameter_longname" : "live.menu[11]",
 											"parameter_mmax" : 1,
 											"parameter_shortname" : "live.menu",
@@ -3565,7 +3567,7 @@
 									"id" : "obj-11",
 									"livemode" : 1,
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 2,
+									"num_lines_patching" : 3,
 									"num_lines_presentation" : 2,
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3594,9 +3596,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.myo", "mo.rand~" ],
+											"parameter_enum" : [ "mo.buffer~", "mo.granulator~", "mo.looper~" ],
 											"parameter_longname" : "live.menu[12]",
-											"parameter_mmax" : 1,
+											"parameter_mmax" : 2,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -4665,7 +4667,7 @@
 					"patching_rect" : [ 21.5, 203.0, 411.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 11.446428567171097, 147.665829000000002, 413.0, 35.0 ],
+					"presentation_rect" : [ 11.446428567171097, 147.665829000000002, 414.0, 35.0 ],
 					"text" : "Extend your musical creativity with interactive machine learning algorithms, mapping modules, ready-to-use instruments and interfaces."
 				}
 

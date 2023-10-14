@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 1886.0, 993.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 86.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -305,6 +305,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 80.06927757859205, 4.0, 108.915979534387589, 15.0 ],
 					"rounded" : 0.0,
+					"text" : "device",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "set-"
@@ -1525,7 +1526,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-123", 1 ],
 					"midpoints" : [ 296.875, 285.0, 255.342786306142557, 285.0 ],
-					"order" : 15,
+					"order" : 0,
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -1642,7 +1643,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-74", 1 ],
 					"midpoints" : [ 296.875, 315.0, 255.342786306142557, 315.0 ],
-					"order" : 0,
+					"order" : 15,
 					"source" : [ "obj-26", 0 ]
 				}
 

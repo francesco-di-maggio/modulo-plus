@@ -41,6 +41,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"candycane" : 8,
+					"contdata" : 1,
+					"id" : "obj-17",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 40.906856800000355, 320.5, 172.0, 61.0 ],
+					"setminmax" : [ 0.0, 1.0 ],
+					"setstyle" : 1,
+					"signed" : 1,
+					"size" : 4,
+					"spacing" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
 					"local" : 1,
 					"maxclass" : "ezdac~",
@@ -451,9 +470,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 40.906856800000355, 491.0, 172.0, 61.0 ],
+					"patching_rect" : [ 40.906856800000355, 485.5, 45.0, 60.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
-					"setstyle" : 3,
+					"setstyle" : 1,
 					"signed" : 1,
 					"spacing" : 2
 				}
@@ -467,7 +486,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 41.0, 165.0, 201.0, 23.0 ],
-					"text" : "mc.rand~ @chans 4 @values 1 2 4 8",
+					"text" : "mc.rand~ @chans 4 @values 1 2 3 4",
 					"varname" : "mo.rand"
 				}
 
@@ -751,6 +770,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 50.406856800000355, 384.0, 50.406856800000355, 384.0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"midpoints" : [ 50.406856800000355, 468.0, 50.406856800000355, 468.0 ],
 					"source" : [ "obj-2", 0 ]
@@ -775,7 +802,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-17", 0 ],
 					"midpoints" : [ 50.5, 261.0, 50.406856800000355, 261.0 ],
 					"source" : [ "obj-41", 0 ]
 				}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 730.0, 589.0 ],
+		"rect" : [ 34.0, 87.0, 730.0, 569.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -49,7 +49,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.140615909090684, 500.0, 172.0, 61.0 ],
+					"patching_rect" : [ 41.140615909090684, 489.0, 172.0, 61.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,
@@ -66,7 +66,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 506.205896412120183, 506.5, 48.0, 48.0 ]
+					"patching_rect" : [ 506.205896412120183, 495.5, 48.0, 48.0 ]
 				}
 
 			}
@@ -79,7 +79,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 593.920641866665392, 517.5, 74.0, 25.0 ],
+					"patching_rect" : [ 593.920641866665392, 506.5, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -99,7 +99,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 565.205896412120183, 520.5, 20.0, 20.0 ],
+					"patching_rect" : [ 565.205896412120183, 509.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],

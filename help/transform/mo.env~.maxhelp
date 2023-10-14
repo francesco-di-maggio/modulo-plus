@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "mo.main",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -248,8 +249,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 41.0, 209.0, 115.0, 23.0 ],
-					"text" : "mc.rand~ @chans 2"
+					"patching_rect" : [ 41.0, 209.0, 182.0, 23.0 ],
+					"text" : "mc.rand~ @chans 2 @values 1 4"
 				}
 
 			}

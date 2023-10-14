@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 1852.0, 959.0 ],
 		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 106.0, 486.0, 455.0 ],
+						"rect" : [ 59.0, 106.0, 484.0, 455.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -85,6 +85,7 @@
 						"style" : "",
 						"subpatcher_template" : "mo.main",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -105,7 +106,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 194.333333333333343, 170.0, 175.666666666666657, 23.0 ],
-									"text" : "1-output"
+									"text" : "2-output"
 								}
 
 							}
@@ -124,6 +125,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-66",
+									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -136,6 +138,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-65",
+									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -165,7 +168,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 194.333333333333343, 290.878494507702669, 175.666666666666657, 23.0 ],
-									"text" : "1-output"
+									"text" : "2-output"
 								}
 
 							}
@@ -175,9 +178,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "int", "bang", "" ],
+									"outlettype" : [ "bang", "int", "" ],
 									"patching_rect" : [ 427.0, 122.151407702118604, 41.0, 23.0 ],
-									"text" : "t 1 b s"
+									"text" : "t b 1 s"
 								}
 
 							}
@@ -348,26 +351,26 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-63", 0 ],
-									"midpoints" : [ 447.5, 276.0, 203.833333333333343, 276.0 ],
+									"destination" : [ "obj-65", 0 ],
+									"midpoints" : [ 447.5, 216.0, 35.333336000000003, 216.0 ],
+									"order" : 1,
 									"source" : [ "obj-62", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-65", 0 ],
-									"midpoints" : [ 436.5, 216.0, 35.333336000000003, 216.0 ],
-									"order" : 1,
-									"source" : [ "obj-62", 0 ]
+									"destination" : [ "obj-66", 0 ],
+									"midpoints" : [ 447.5, 216.0, 183.5, 216.0 ],
+									"order" : 0,
+									"source" : [ "obj-62", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-66", 0 ],
-									"midpoints" : [ 436.5, 216.0, 183.5, 216.0 ],
-									"order" : 0,
+									"destination" : [ "obj-68", 0 ],
+									"midpoints" : [ 436.5, 156.0, 203.833333333333343, 156.0 ],
 									"source" : [ "obj-62", 0 ]
 								}
 
@@ -587,7 +590,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 26.284978388602212, -0.058990031480789, 182.876102859919371, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "1-output",
+					"text" : "2-output",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "send-"
 				}
@@ -649,7 +652,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[220]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -657,9 +660,9 @@
 
 					}
 ,
-					"text" : "1",
+					"text" : "2",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"texton" : "1",
+					"texton" : "2",
 					"varname" : "mute-"
 				}
 
@@ -711,7 +714,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 361.5, 280.555555555555657, 356.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ "1-output" ],
+						"initial" : [ "2-output" ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
