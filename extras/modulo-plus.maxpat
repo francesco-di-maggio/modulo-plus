@@ -41,6 +41,21 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Light Regular",
+					"fontsize" : 14.0,
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 280.0, 27.5, 124.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 110.0, 124.0, 23.0 ],
+					"text" : "(work-in-progress)"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1903,7 +1918,7 @@
 												"box" : 												{
 													"data" : 													{
 														"Granulator" : "play an eight phase-shifted voices granular synthesizer",
-														"Looper" : "record multichannel live audio into a looper",
+														"Looper" : "play a multichannel live audio looper",
 														"Classifier" : "train a model to playback a specified sample based on new input data",
 														"PCA" : "turn input data into lower dimensions",
 														"Regressor" : "train a model to control sound parameters based on new input data",
@@ -2322,7 +2337,7 @@
 									"patching_rect" : [ 96.0, 657.80976314285715, 454.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 13.190476208925247, 156.75, 402.523809522390366, 20.0 ],
-									"text" : "-  an eight-shifted voices granular synthesizer  -",
+									"text" : "… click on any module to see its description… double-click to open it…",
 									"textjustification" : 1
 								}
 
@@ -2458,7 +2473,6 @@
 														"mo.env~" : "extract the absolute signal from multichannel audio (i.e. envelope follower)",
 														"mo.pca" : "perform dimensionality reduction through principal component analysis",
 														"mo.regress" : "predicting continuous values in response to new input data",
-														"mo.buffer~" : "record, store and playback multichannel audio signal, or load a sample",
 														"mo.granulator~" : "an eight phase-shifted voices granular synthesizer",
 														"mo.looper~" : "a multichannel audio looper with playback and pitch control",
 														"mo.onepole~" : "a multichannel single-pole lowpass filter (-6dB/octave)"
@@ -2769,7 +2783,7 @@
 									"patching_rect" : [ 25.5, 397.000000000000057, 511.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 10.190476208925247, 65.5, 404.809523791074753, 20.0 ],
-									"text" : "Handle auxiliary functions, such as monitoring, visualizing and recording data."
+									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials."
 								}
 
 							}
@@ -3163,7 +3177,7 @@
 														"input" : [ "mo.myo", "mo.rand~" ],
 														"route" : [ "mo.receives", "mo.sends" ],
 														"transform" : [ "mo.bayesian", "mo.classify", "mo.env~", "mo.onepole~", "mo.pca", "mo.regress" ],
-														"utility" : [ "mo.buffer~", "mo.granulator~", "mo.looper~" ]
+														"utility" : [ "mo.granulator~", "mo.looper~" ]
 													}
 ,
 													"id" : "obj-87",
@@ -3567,7 +3581,7 @@
 									"id" : "obj-11",
 									"livemode" : 1,
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 3,
+									"num_lines_patching" : 2,
 									"num_lines_presentation" : 2,
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3596,9 +3610,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.buffer~", "mo.granulator~", "mo.looper~" ],
+											"parameter_enum" : [ "mo.myo", "mo.rand~" ],
 											"parameter_longname" : "live.menu[12]",
-											"parameter_mmax" : 2,
+											"parameter_mmax" : 1,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
