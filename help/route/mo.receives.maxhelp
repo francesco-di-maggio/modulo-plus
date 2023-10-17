@@ -256,8 +256,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 480.0, 249.0, 23.0 ],
-					"text" : "-0.360465 -0.406977 -0.55814 -0.674419"
+					"patching_rect" : [ 41.0, 480.0, 249.0, 23.0 ]
 				}
 
 			}
@@ -309,7 +308,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 245.0, 203.3754593282938, 74.0, 25.0 ],
+					"patching_rect" : [ 202.0, 203.3754593282938, 74.0, 25.0 ],
 					"text" : "set name"
 				}
 
@@ -328,7 +327,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 218.0, 205.8754593282938, 20.0, 20.0 ],
+					"patching_rect" : [ 175.0, 205.8754593282938, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -342,8 +341,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 176.255791574060595, 204.3754593282938, 29.5, 23.0 ],
-					"text" : "\" \""
+					"patching_rect" : [ 208.5, 256.0, 29.5, 23.0 ],
+					"text" : "set"
 				}
 
 			}
@@ -501,7 +500,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"midpoints" : [ 451.5, 468.0, 451.5, 468.0 ],
+					"midpoints" : [ 451.5, 456.0, 451.5, 456.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -509,6 +508,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 327.5, 423.0, 327.5, 423.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -523,8 +523,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 185.755791574060595, 243.0, 132.5, 243.0 ],
+					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 218.0, 303.0, 50.5, 303.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -540,6 +540,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
+					"midpoints" : [ 327.5, 381.0, 327.5, 381.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
