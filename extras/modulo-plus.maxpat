@@ -1277,7 +1277,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -730.0, 0.0 ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1790,7 +1790,7 @@
 									"patching_rect" : [ 814.0, 657.80976314285715, 420.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 743.476190477609634, 156.75, 401.523809522390366, 20.0 ],
-									"text" : "… click on any example to see its description… double-click to open it…",
+									"text" : "-  train a model to control sound parameters based on new input data  -",
 									"textjustification" : 1
 								}
 
@@ -2337,7 +2337,7 @@
 									"patching_rect" : [ 96.0, 657.80976314285715, 454.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 13.190476208925247, 156.75, 402.523809522390366, 20.0 ],
-									"text" : "… click on any module to see its description… double-click to open it…",
+									"text" : "-  predicting continuous values in response to new input data  -",
 									"textjustification" : 1
 								}
 
@@ -2767,7 +2767,7 @@
 									"patching_rect" : [ 737.5, 397.000000000000057, 535.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 740.476190477609634, 65.5, 405.0, 20.0 ],
-									"text" : "Instruments and interfaces using different type of inputs, and direct mapping."
+									"text" : "Perform various tasks, including recording, mapping, and combining building blocks."
 								}
 
 							}
@@ -2783,7 +2783,7 @@
 									"patching_rect" : [ 25.5, 397.000000000000057, 511.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 10.190476208925247, 65.5, 404.809523791074753, 20.0 ],
-									"text" : "Arrange, display and map input data, such as numbers, pads, sliders, and dials."
+									"text" : "Process input data through filtering, averaging and smoothing algorithms."
 								}
 
 							}
@@ -3557,9 +3557,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Granulator", "Looper" ],
+											"parameter_enum" : [ "Classifier", "PCA", "Regressor", "Sonifier" ],
 											"parameter_longname" : "live.menu[11]",
-											"parameter_mmax" : 1,
+											"parameter_mmax" : 3,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -3610,9 +3610,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "mo.myo", "mo.rand~" ],
+											"parameter_enum" : [ "mo.bayesian", "mo.classify", "mo.env~", "mo.onepole~", "mo.pca", "mo.regress" ],
 											"parameter_longname" : "live.menu[12]",
-											"parameter_mmax" : 1,
+											"parameter_mmax" : 5,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9

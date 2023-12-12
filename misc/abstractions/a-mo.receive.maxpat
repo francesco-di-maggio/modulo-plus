@@ -959,14 +959,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 345.666666666666629, 281.518048321759238, 382.0, 23.0 ],
+					"patching_rect" : [ 345.666666666666629, 281.518048321759238, 274.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ "1-output" ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr receive @bindto receive- @initial #1-output @default_priority 1",
+					"text" : "pattr receive @bindto receive- @initial #1-output",
 					"varname" : "receive"
 				}
 

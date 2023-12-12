@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1852.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -85,7 +85,6 @@
 						"style" : "",
 						"subpatcher_template" : "mo.main",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -106,7 +105,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 194.333333333333343, 170.0, 175.666666666666657, 23.0 ],
-									"text" : "2-output"
+									"text" : "1-output"
 								}
 
 							}
@@ -125,7 +124,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-66",
-									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -138,7 +136,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-65",
-									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -168,7 +165,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 194.333333333333343, 290.878494507702669, 175.666666666666657, 23.0 ],
-									"text" : "2-output"
+									"text" : "1-output"
 								}
 
 							}
@@ -590,7 +587,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 26.284978388602212, -0.058990031480789, 182.876102859919371, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "2-output",
+					"text" : "1-output",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "send-"
 				}
@@ -652,7 +649,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[220]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -660,9 +657,9 @@
 
 					}
 ,
-					"text" : "2",
+					"text" : "1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"texton" : "2",
+					"texton" : "1",
 					"varname" : "mute-"
 				}
 
@@ -712,14 +709,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 361.5, 280.555555555555657, 356.0, 23.0 ],
+					"patching_rect" : [ 361.5, 280.555555555555657, 250.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ "2-output" ],
+						"initial" : [ "1-output" ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr send @bindto send- @initial #1-output @default_priority 1",
+					"text" : "pattr send @bindto send- @initial #1-output ",
 					"varname" : "send"
 				}
 

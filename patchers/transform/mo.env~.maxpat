@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
-		"openrect" : [ 0.0, 0.0, 70.0, 57.5 ],
+		"rect" : [ 0.0, 53.0, 70.0, 58.0 ],
+		"openrect" : [ 0.0, 0.0, 70.0, 62.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -128,7 +128,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[53]",
+							"parameter_longname" : "live.text[429]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -307,7 +307,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 133.220077397142632, 330.0, 51.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.5, 22.0, 51.0, 18.0 ],
+					"presentation_rect" : [ 9.5, 25.0, 51.0, 18.0 ],
 					"text" : "sensitivity"
 				}
 
@@ -344,7 +344,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[10]",
+							"parameter_longname" : "live.numbox[161]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -501,7 +501,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 218.0, 32.0, 30.0, 30.0 ]
 				}
 
@@ -561,7 +561,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 10 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[4]",
+							"parameter_longname" : "live.numbox[159]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -630,7 +630,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 84.5, 332.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.51741299033165, 38.371792723306498, 62.080987766385078, 15.0 ],
+					"presentation_rect" : [ 3.51741299033165, 43.371792723306498, 62.080987766385078, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -651,7 +651,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[11]",
+							"parameter_longname" : "live.numbox[160]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,

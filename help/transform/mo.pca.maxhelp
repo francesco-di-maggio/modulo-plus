@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 744.0, 572.0 ],
+		"rect" : [ 34.0, 87.0, 744.0, 558.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -65,7 +65,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 551.499898096969446, 497.5, 48.0, 48.0 ]
+					"patching_rect" : [ 551.499898096969446, 491.5, 48.0, 48.0 ]
 				}
 
 			}
@@ -78,7 +78,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 639.214643551514655, 508.5, 74.0, 25.0 ],
+					"patching_rect" : [ 639.214643551514655, 502.5, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -98,7 +98,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 610.499898096969446, 511.5, 20.0, 20.0 ],
+					"patching_rect" : [ 610.499898096969446, 505.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -205,7 +205,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 106.0, 343.0, 414.0 ],
+						"rect" : [ 59.0, 106.0, 294.0, 414.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -233,6 +233,7 @@
 						"style" : "",
 						"subpatcher_template" : "mo.main",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Ableton Sans Medium",
@@ -248,12 +249,13 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 20.5, 316.0, 32.0, 22.0 ],
+									"patching_rect" : [ 20.5, 316.0, 32.0, 23.0 ],
 									"text" : "gate"
 								}
 
@@ -468,9 +470,10 @@
 					"maxclass" : "multislider",
 					"numinlets" : 1,
 					"numoutlets" : 2,
+					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 40.906856800000355, 485.5, 45.0, 60.0 ],
+					"patching_rect" : [ 40.906856800000355, 497.5, 172.0, 36.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"signed" : 1,

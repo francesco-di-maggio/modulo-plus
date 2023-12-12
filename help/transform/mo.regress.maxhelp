@@ -713,6 +713,45 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-20::obj-113" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
+,
+				"obj-20::obj-147" : 				{
+					"parameter_longname" : "live.text[51]"
+				}
+,
+				"obj-20::obj-37" : 				{
+					"parameter_longname" : "live.text[8]"
+				}
+,
+				"obj-20::obj-41" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-20::obj-54" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-20::obj-67" : 				{
+					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-20::obj-70" : 				{
+					"parameter_longname" : "live.numbox[12]"
+				}
+,
+				"obj-20::obj-92" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
+				"obj-20::obj-93" : 				{
+					"parameter_longname" : "live.text[11]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
