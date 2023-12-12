@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 58.0 ],
-		"openrect" : [ 0.0, 0.0, 214.0, 57.5 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"openrect" : [ 0.0, 0.0, 214.0, 62.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,25 @@
 		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-52",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 925.999999999999773, 427.499998642371906, 101.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 102.076056599617004, 27.104528188705444, 108.923943400383024, 13.790943622589111 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
@@ -151,7 +170,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.168627450980392, 0.168627450980392, 0.168627450980392, 0.0 ],
-					"border" : 1.0,
+					"border" : 0.0,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
@@ -167,7 +186,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 854.5, 453.5, 105.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.076056599617004, 27.0, 107.895674228668213, 16.0 ],
+					"presentation_rect" : [ 102.076056599617004, 26.0, 107.895674228668213, 16.0 ],
 					"rounded" : 0.0,
 					"text" : "1.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -492,7 +511,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 542.5, 556.0, 41.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.64914259314537, 25.0, 41.0, 18.0 ],
+					"presentation_rect" : [ 55.64914259314537, 24.0, 41.0, 18.0 ],
 					"text" : "diffrate"
 				}
 
@@ -508,7 +527,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 287.5, 556.0, 47.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 25.0, 47.0, 18.0 ],
+					"presentation_rect" : [ 4.0, 24.0, 47.0, 18.0 ],
 					"text" : "jumprate"
 				}
 
