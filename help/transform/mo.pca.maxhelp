@@ -550,7 +550,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -565,7 +564,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.906856800000355, 410.333333333333371, 214.0, 57.5 ],
+					"patching_rect" : [ 40.906856800000355, 410.333333333333371, 214.0, 62.0 ],
 					"varname" : "mo.pca",
 					"viewvisibility" : 1
 				}
@@ -845,9 +844,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-24" : [ "live.text[43]", "number", 0 ],
-			"obj-2::obj-41" : [ "live.text[8]", "live.text", 0 ],
-			"obj-2::obj-7" : [ "live.text[118]", "live.text", 0 ],
+			"obj-2::obj-24" : [ "live.text[635]", "number", 0 ],
+			"obj-2::obj-41" : [ "live.text[914]", "live.text", 0 ],
+			"obj-2::obj-7" : [ "live.text[874]", "live.text", 0 ],
 			"obj-2::obj-70" : [ "live.numbox[28]", "live.numbox", 0 ],
 			"obj-2::obj-84" : [ "live.numbox[29]", "live.numbox", 0 ],
 			"obj-2::obj-99" : [ "live.numbox[30]", "live.numbox", 0 ],
@@ -856,21 +855,6 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-2::obj-24" : 				{
-					"parameter_longname" : "live.text[43]"
-				}
-,
-				"obj-2::obj-41" : 				{
-					"parameter_longname" : "live.text[8]"
-				}
-,
-				"obj-2::obj-7" : 				{
-					"parameter_longname" : "live.text[118]"
 				}
 
 			}

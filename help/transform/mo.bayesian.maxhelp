@@ -522,7 +522,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.140615909090684, 406.833333333333371, 214.0, 57.5 ],
+					"patching_rect" : [ 41.140615909090684, 406.833333333333371, 214.0, 62.0 ],
 					"varname" : "mo.bayesian",
 					"viewvisibility" : 1
 				}
@@ -787,11 +787,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-135" : [ "live.text[119]", "live.text", 0 ],
-			"obj-2::obj-155" : [ "live.numbox[7]", "live.dial[12]", 0 ],
-			"obj-2::obj-31" : [ "live.numbox[290]", "live.numbox", 0 ],
-			"obj-2::obj-7" : [ "live.text[120]", "live.text", 0 ],
-			"obj-2::obj-70" : [ "live.numbox[28]", "live.numbox", 0 ],
+			"obj-2::obj-135" : [ "live.text[929]", "live.text", 0 ],
+			"obj-2::obj-155" : [ "live.numbox[50]", "live.dial[12]", 0 ],
+			"obj-2::obj-31" : [ "live.numbox[333]", "live.numbox", 0 ],
+			"obj-2::obj-7" : [ "live.text[948]", "live.text", 0 ],
+			"obj-2::obj-70" : [ "live.numbox[358]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

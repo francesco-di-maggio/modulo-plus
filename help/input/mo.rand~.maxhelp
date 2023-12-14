@@ -420,7 +420,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 41.0, 419.297012329101562, 214.0, 57.5 ],
+					"patching_rect" : [ 41.0, 419.297011999999995, 214.0, 62.0 ],
 					"varname" : "mo.rand~",
 					"viewvisibility" : 1
 				}
@@ -430,7 +430,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
-					"midpoints" : [ 245.5, 477.0, 245.140615909090684, 477.0 ],
+					"midpoints" : [ 245.5, 483.0, 245.140615909090684, 483.0 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -438,7 +438,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 50.5, 477.0, 50.5, 477.0 ],
+					"midpoints" : [ 50.5, 483.0, 50.5, 483.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
