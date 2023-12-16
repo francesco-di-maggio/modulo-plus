@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 215.0, 15.0 ],
 		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -40,6 +40,52 @@
 		"subpatcher_template" : "mo.main",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.168627450980392, 0.168627450980392, 0.168627450980392, 0.0 ],
+					"border" : 0.0,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 9.5,
+					"id" : "obj-26",
+					"keymode" : 1,
+					"lines" : 1,
+					"maxclass" : "textedit",
+					"nosymquotes" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 167.5, 284.055555555555657, 90.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 27.0, 1.0, 181.0, 15.0 ],
+					"rounded" : 0.0,
+					"text" : "playpos",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"varname" : "send-"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-8",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 169.0, 284.055555555555657, 92.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 25.996411346901908, 0.871792723306498, 183.483618820945964, 13.593006536364555 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
@@ -105,7 +151,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 194.333333333333343, 170.0, 175.666666666666657, 23.0 ],
-									"text" : "1-output"
+									"text" : "playpos"
 								}
 
 							}
@@ -124,6 +170,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-66",
+									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -136,6 +183,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-65",
+									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -165,7 +213,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 194.333333333333343, 290.878494507702669, 175.666666666666657, 23.0 ],
-									"text" : "1-output"
+									"text" : "playpos"
 								}
 
 							}
@@ -496,7 +544,6 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -509,7 +556,6 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -522,7 +568,6 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -536,7 +581,6 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -563,47 +607,6 @@
 ,
 					"text" : "pattr mute @bindto mute- @initial 0",
 					"varname" : "mute"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.168627450980392, 0.168627450980392, 0.168627450980392, 0.0 ],
-					"border" : 1.0,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : 0,
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
-					"id" : "obj-26",
-					"keymode" : 1,
-					"lines" : 1,
-					"maxclass" : "textedit",
-					"nosymquotes" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 167.833333333333343, 284.055555555555657, 90.0, 16.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 26.284978388602212, -0.058990031480789, 182.876102859919371, 15.0 ],
-					"rounded" : 0.0,
-					"text" : "1-output",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"varname" : "send-"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
-					"id" : "obj-19",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 263.666666666666742, 283.055555555555657, 29.0, 18.0 ],
-					"text" : "send",
-					"textjustification" : 1
 				}
 
 			}
@@ -844,7 +847,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"hidden" : 1,
 					"midpoints" : [ 372.0, 405.0, 372.0, 405.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
@@ -871,7 +873,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"hidden" : 1,
 					"midpoints" : [ 372.0, 432.0, 372.0, 432.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
@@ -922,7 +923,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 1 ],
-					"midpoints" : [ 177.333333333333343, 303.0, 177.0, 303.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 

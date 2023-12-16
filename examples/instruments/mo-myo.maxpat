@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 664.0, 748.0 ],
+		"rect" : [ 34.0, 87.0, 636.0, 268.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -55,9 +55,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 327.0, 164.0, 70.0, 87.0 ],
+					"patching_rect" : [ 327.0, 164.0, 70.0, 96.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 49.0, 70.0, 87.0 ],
+					"presentation_rect" : [ 452.0, 92.0, 70.0, 96.0 ],
 					"varname" : "mo.rms~",
 					"viewvisibility" : 1
 				}
@@ -79,9 +79,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 327.0, 115.0, 70.0, 27.0 ],
+					"patching_rect" : [ 327.0, 115.0, 70.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 20.0, 70.0, 27.0 ],
+					"presentation_rect" : [ 452.0, 67.0, 70.0, 23.0 ],
 					"varname" : "mo.sig~",
 					"viewvisibility" : 1
 				}
@@ -104,9 +104,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 327.0, 280.0, 214.0, 200.0 ],
+					"patching_rect" : [ 327.0, 280.0, 214.0, 182.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 138.0, 214.0, 200.0 ],
+					"presentation_rect" : [ 236.0, 67.0, 214.0, 182.0 ],
 					"varname" : "mo.sliders[1]",
 					"viewvisibility" : 1
 				}
@@ -129,9 +129,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 98.0, 115.0, 214.0, 136.0 ],
+					"patching_rect" : [ 98.0, 115.0, 214.0, 126.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 138.0, 214.0, 136.0 ],
+					"presentation_rect" : [ 20.0, 67.0, 214.0, 126.0 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -153,9 +153,9 @@
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "", "", "", "" ],
-					"patching_rect" : [ 20.0, 20.0, 214.0, 57.5 ],
+					"patching_rect" : [ 20.0, 20.0, 214.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 20.0, 214.0, 57.5 ],
+					"presentation_rect" : [ 20.0, 20.0, 214.0, 45.0 ],
 					"varname" : "mo.myo",
 					"viewvisibility" : 1
 				}
@@ -170,7 +170,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1174.19513450935483, 566.25, 74.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 107.0, 566.5, 74.0, 25.0 ],
+					"presentation_rect" : [ 547.75, 210.25, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -192,7 +192,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1146.69513450935483, 568.75, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 81.875, 569.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 522.625, 212.75, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -212,107 +212,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1092.82013450935483, 556.25, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 552.75, 52.5, 52.5 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 0,
-					"id" : "obj-17",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 550.0, 148.0, 54.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 477.0, 523.0, 148.0, 54.0 ],
-					"text" : "control sound parameters\nusing sliders and pads",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 10.0,
-					"hint" : "",
-					"id" : "obj-19",
-					"ignoreclick" : 1,
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 724.0, 520.273025318980217, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 434.0, 547.0, 20.0, 20.0 ],
-					"rounded" : 60.0,
-					"text" : "3",
-					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Bold Regular",
-					"id" : "obj-22",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 840.0, 636.318161525257892, 332.0, 79.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 5,
-					"presentation_rect" : [ 15.625, 650.5, 332.0, 79.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Load a sample, or drag your own of the waveform object. \n2. Use pads and sliders to control the sound.\n3. (Optional) Set different scaling factors."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-40",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mo.dac~.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 840.0, 550.0, 214.0, 57.5 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 430.625, 672.0, 214.0, 57.5 ],
-					"varname" : "bbdmi.dac~",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-35",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 645.458333333333258, 564.0, 83.0, 40.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 463.0, 537.0, 37.0, 40.0 ],
-					"text" : "\n",
-					"textjustification" : 1
+					"presentation_rect" : [ 460.75, 196.5, 52.5, 52.5 ]
 				}
 
 			}
@@ -351,23 +251,18 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-12::obj-52" : [ "live.numbox[6]", "live.numbox", 0 ],
-			"obj-12::obj-6" : [ "live.text[120]", "live.text", 0 ],
+			"obj-12::obj-52" : [ "live.numbox[292]", "live.numbox", 0 ],
+			"obj-12::obj-6" : [ "live.text[524]", "live.text", 0 ],
 			"obj-13::obj-13" : [ "live.numbox[189]", "live.numbox", 0 ],
 			"obj-13::obj-28" : [ "live.numbox[187]", "live.numbox", 0 ],
 			"obj-13::obj-34" : [ "live.numbox[188]", "live.numbox", 0 ],
 			"obj-13::obj-4" : [ "live.text[482]", "live.text", 0 ],
-			"obj-1::obj-15" : [ "live.text[26]", "live.text", 0 ],
-			"obj-1::obj-30" : [ "live.numbox[7]", "live.numbox", 0 ],
-			"obj-1::obj-36" : [ "live.text[1]", "live.text", 0 ],
-			"obj-1::obj-4" : [ "live.text[30]", "live.text", 0 ],
-			"obj-1::obj-41" : [ "live.text[2]", "live.text", 0 ],
-			"obj-1::obj-45" : [ "live.text[3]", "live.text", 0 ],
-			"obj-40::obj-12" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-40::obj-45" : [ "live.gain~[2]", "volume", 0 ],
-			"obj-40::obj-56" : [ "live.numbox[4]", "live.numbox", 0 ],
-			"obj-40::obj-7" : [ "live.text[54]", "live.text", 0 ],
-			"obj-40::obj-8" : [ "live.text[145]", "live.text", 0 ],
+			"obj-1::obj-15" : [ "live.text[897]", "live.text", 0 ],
+			"obj-1::obj-30" : [ "live.numbox[654]", "live.numbox", 0 ],
+			"obj-1::obj-36" : [ "live.text[859]", "live.text", 0 ],
+			"obj-1::obj-4" : [ "live.text[953]", "live.text", 0 ],
+			"obj-1::obj-41" : [ "live.text[858]", "live.text", 0 ],
+			"obj-1::obj-45" : [ "live.text[931]", "live.text", 0 ],
 			"obj-4::obj-107::obj-20" : [ "Show Particle Settings[3]", "live.text", 0 ],
 			"obj-4::obj-107::obj-35" : [ "live.text[6]", "live.text", 0 ],
 			"obj-4::obj-107::obj-8" : [ "live.text[7]", "live.text", 0 ],
@@ -514,14 +409,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-12::obj-6" : 				{
-					"parameter_longname" : "live.text[120]"
-				}
-,
-				"obj-40::obj-8" : 				{
-					"parameter_longname" : "live.text[145]"
-				}
-,
 				"obj-4::obj-107::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[3]"
 				}
@@ -532,6 +419,18 @@
 ,
 				"obj-4::obj-107::obj-8" : 				{
 					"parameter_longname" : "live.text[7]"
+				}
+,
+				"obj-4::obj-123::obj-20" : 				{
+					"parameter_longname" : "Show Particle Settings[1]"
+				}
+,
+				"obj-4::obj-123::obj-35" : 				{
+					"parameter_longname" : "live.text[63]"
+				}
+,
+				"obj-4::obj-123::obj-8" : 				{
+					"parameter_longname" : "live.text[43]"
 				}
 ,
 				"obj-4::obj-1::obj-20" : 				{
@@ -948,13 +847,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
 				"patcherrelativepath" : "../../../modulo/misc/colls",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.dac~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
-				"patcherrelativepath" : "../../../modulo/patchers/route",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
