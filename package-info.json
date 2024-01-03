@@ -4,7 +4,7 @@
 	"version" : "1.0.1	",
 	"author" : "Francesco Di Maggio",
 	"description" : "A Creative Extension to the modulo Package.",
-	"tags" : [ "digital", "musical",w "instruments", "design", "modular", "multichannel", "interactive", "machine learning" ],
+	"tags" : [ "digital", "musical", "instruments", "design", "modular", "multichannel", "interactive", "machine learning" ],
 	"website" : "https://francescodimaggio.nl",
 	"extensible" : 0,
 	"extends" : "",

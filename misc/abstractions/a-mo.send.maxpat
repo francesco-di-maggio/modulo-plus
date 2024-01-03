@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 215.0, 15.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"openrect" : [ 0.0, 0.0, 215.0, 15.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -56,11 +56,10 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 167.5, 284.055555555555657, 90.0, 16.0 ],
+					"patching_rect" : [ 167.5, 193.5, 93.5, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 27.0, 1.0, 181.0, 15.0 ],
 					"rounded" : 0.0,
-					"text" : "playpos",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "send-"
 				}
@@ -77,7 +76,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 284.055555555555657, 92.0, 16.0 ],
+					"patching_rect" : [ 169.0, 193.5, 92.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.996411346901908, 0.871792723306498, 183.483618820945964, 13.593006536364555 ],
 					"proportion" : 0.5,
@@ -97,7 +96,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -131,6 +130,7 @@
 						"style" : "",
 						"subpatcher_template" : "mo.main",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -151,7 +151,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 194.333333333333343, 170.0, 175.666666666666657, 23.0 ],
-									"text" : "playpos"
+									"text" : "1"
 								}
 
 							}
@@ -170,7 +170,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-66",
-									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -183,7 +182,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-65",
-									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -213,7 +211,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 194.333333333333343, 290.878494507702669, 175.666666666666657, 23.0 ],
-									"text" : "playpos"
+									"text" : "bang"
 								}
 
 							}
@@ -712,14 +710,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 361.5, 280.555555555555657, 250.0, 23.0 ],
+					"patching_rect" : [ 361.5, 280.555555555555657, 205.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ "1-output" ],
+						"initial" : [ " " ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr send @bindto send- @initial #1-output ",
+					"text" : "pattr send @bindto send- @initial \" \"",
 					"varname" : "send"
 				}
 
@@ -923,6 +921,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 1 ],
+					"midpoints" : [ 177.0, 210.0, 177.0, 210.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
