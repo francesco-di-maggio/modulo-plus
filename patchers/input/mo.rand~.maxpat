@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 62.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 62.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -215,7 +215,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 209.0, 171.999999999999886, 44.0, 15.0 ],
-					"pictures" : [ "play.svg", "stop.svg" ],
+					"pictures" : [ "mo.play.svg", "mo.stop.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.5, 43.04472079873085, 86.5, 15.0 ],
 					"remapsvgcolors" : 1,
@@ -308,7 +308,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

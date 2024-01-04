@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 62.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 62.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -52,7 +52,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 925.999999999999773, 427.499998642371906, 101.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.076056599617004, 27.104528188705444, 108.923943400383024, 13.790943622589111 ],
+					"presentation_rect" : [ 102.076056599617004, 27.104528188705444, 107.923943400383024, 13.790943622589111 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -105,7 +105,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ -2 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[333]",
+							"parameter_longname" : "live.numbox[290]",
 							"parameter_mmax" : 500.0,
 							"parameter_mmin" : -500.0,
 							"parameter_shortname" : "live.numbox",
@@ -133,7 +133,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1150.0, 460.0, 58.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 101.076056599617004, 43.0, 109.923943400383024, 15.0 ],
+					"presentation_rect" : [ 101.076056599617004, 43.0, 108.923943400383024, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -153,7 +153,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[929]",
+							"parameter_longname" : "live.text[71]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -186,7 +186,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 854.5, 453.5, 105.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.076056599617004, 26.0, 107.895674228668213, 16.0 ],
+					"presentation_rect" : [ 102.076056599617004, 26.0, 106.895674228668213, 16.0 ],
 					"rounded" : 0.0,
 					"text" : "1.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -222,7 +222,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ -100 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[50]",
+							"parameter_longname" : "live.numbox[7]",
 							"parameter_mmax" : 500.0,
 							"parameter_mmin" : -500.0,
 							"parameter_shortname" : "live.dial[12]",
@@ -568,7 +568,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -674,7 +674,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1021,7 +1021,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1616,7 +1616,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 154.5, 363.051943330534755, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 192.0, 4.0, 19.000000000000028, 15.0 ],
+					"presentation_rect" : [ 191.0, 4.0, 19.000000000000028, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1635,7 +1635,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[358]",
+							"parameter_longname" : "live.numbox[28]",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -1762,7 +1762,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[948]",
+							"parameter_longname" : "live.text[112]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
