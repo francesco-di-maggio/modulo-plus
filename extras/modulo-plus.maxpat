@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 276.0, 168.0, 430.0, 430.0 ],
-		"bglocked" : 0,
+		"openrect" : [ 279.0, 242.0, 430.0, 430.0 ],
+		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -26,7 +26,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 2,
+		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -307,7 +307,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 244.5, 265.870213079740267, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 346.0, 111.58408428401782, 20.83183143196436, 19.83183143196436 ]
+					"presentation_rect" : [ 344.0, 111.58408428401782, 20.83183143196436, 19.83183143196436 ]
 				}
 
 			}
@@ -446,7 +446,7 @@
 					"patching_rect" : [ 239.084084284017877, 259.954297363758087, 40.83183143196436, 40.83183143196436 ],
 					"pic" : "",
 					"presentation" : 1,
-					"presentation_rect" : [ 346.0, 111.58408428401782, 20.83183143196436, 20.83183143196436 ]
+					"presentation_rect" : [ 344.0, 111.58408428401782, 20.83183143196436, 20.83183143196436 ]
 				}
 
 			}
@@ -1588,8 +1588,9 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"Granulator" : [ "mo-granulator" ],
-														"Looper" : [ "mo-looper" ],
+														"Genki Wave" : [ "mo-wave" ],
+														"Myo Armband" : [ "mo-myo" ],
+														"ODD Ball" : [ "mo-odd" ],
 														"Classifier" : [ "mo-classifier" ],
 														"PCA" : [ "mo-pca" ],
 														"Regressor" : [ "mo-regressor" ],
@@ -1951,8 +1952,9 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"Granulator" : "play an eight phase-shifted voices granular synthesizer",
-														"Looper" : "play a multichannel live audio looper",
+														"Genki Wave" : "connect and stream data from a Wave ring",
+														"Myo Armband" : "connect and stream data from a Myo armband",
+														"ODD Ball" : "connect and stream data from an ODD ball",
 														"Classifier" : "train a model to playback a specified sample based on new input data",
 														"PCA" : "turn input data into lower dimensions",
 														"Regressor" : "train a model to control sound parameters based on new input data",
@@ -3208,7 +3210,7 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"interfaces" : [ "mo.myo", "mo.rand~" ],
+														"input" : [ "mo.myo", "mo.rand~" ],
 														"transform" : [ "mo.bayesian", "mo.classify", "mo.env~", "mo.onepole~", "mo.pca", "mo.regress" ]
 													}
 ,
@@ -3422,7 +3424,7 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"instruments" : [ "Granulator", "Looper" ],
+														"instruments" : [ "Genki Wave", "Myo Armband", "ODD Ball" ],
 														"tutorials" : [ "Classifier", "PCA", "Regressor", "Sonifier" ]
 													}
 ,
@@ -3560,7 +3562,7 @@
 									"id" : "obj-12",
 									"livemode" : 1,
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 2,
+									"num_lines_patching" : 3,
 									"num_lines_presentation" : 2,
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3589,9 +3591,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "Granulator", "Looper" ],
+											"parameter_enum" : [ "Genki Wave", "Myo Armband", "ODD Ball" ],
 											"parameter_longname" : "live.menu[11]",
-											"parameter_mmax" : 1,
+											"parameter_mmax" : 2,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -3613,7 +3615,7 @@
 									"id" : "obj-11",
 									"livemode" : 1,
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 2,
+									"num_lines_patching" : 6,
 									"num_lines_presentation" : 2,
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4194,7 +4196,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "interfaces", "transform" ],
+											"parameter_enum" : [ "input", "transform" ],
 											"parameter_longname" : "live.menu[14]",
 											"parameter_mmax" : 1,
 											"parameter_shortname" : "live.menu",
