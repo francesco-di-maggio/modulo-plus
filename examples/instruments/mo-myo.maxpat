@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -168,9 +168,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1174.19513450935483, 566.25, 74.0, 25.0 ],
+					"patching_rect" : [ 420.5, 518.0, 74.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 547.75, 210.25, 74.0, 25.0 ],
+					"presentation_rect" : [ 545.5, 208.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -190,9 +190,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1146.69513450935483, 568.75, 20.0, 20.0 ],
+					"patching_rect" : [ 393.5, 521.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 522.625, 212.75, 20.0, 20.0 ],
+					"presentation_rect" : [ 518.5, 211.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -210,9 +210,9 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1092.82013450935483, 556.25, 45.0, 45.0 ],
+					"patching_rect" : [ 339.5, 508.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 460.75, 196.5, 52.5, 52.5 ]
+					"presentation_rect" : [ 464.5, 198.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -445,6 +445,10 @@
 					"parameter_longname" : "live.text[9]"
 				}
 ,
+				"obj-4::obj-35" : 				{
+					"parameter_longname" : "live.text[183]"
+				}
+,
 				"obj-4::obj-36::obj-20" : 				{
 					"parameter_longname" : "Show Particle Settings[5]"
 				}
@@ -455,6 +459,14 @@
 ,
 				"obj-4::obj-36::obj-8" : 				{
 					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-4::obj-38" : 				{
+					"parameter_longname" : "live.text[184]"
+				}
+,
+				"obj-4::obj-4" : 				{
+					"parameter_longname" : "live.text[182]"
 				}
 ,
 				"obj-4::obj-40::obj-20" : 				{
@@ -587,6 +599,10 @@
 ,
 				"obj-4::obj-50::obj-8" : 				{
 					"parameter_longname" : "live.text[38]"
+				}
+,
+				"obj-4::obj-56" : 				{
+					"parameter_longname" : "live.numbox[17]"
 				}
 ,
 				"obj-4::obj-74::obj-20" : 				{
@@ -836,13 +852,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "a-mo.windower.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo/misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mo.colors.txt",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
 				"patcherrelativepath" : "../../../modulo/misc/colls",
@@ -854,6 +863,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../../modulo/misc/js",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -876,10 +892,6 @@
 				"patcherrelativepath" : "../../../modulo/patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "myo.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,

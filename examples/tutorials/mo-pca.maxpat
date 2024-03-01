@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -47,7 +47,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 280.5, 80.499999999999943, 185.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 266.0, 56.5, 185.0, 25.0 ],
+					"presentation_rect" : [ 266.0, 81.0, 185.0, 25.0 ],
 					"text" : "turn random generator on/off"
 				}
 
@@ -69,7 +69,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 250.0, 83.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 59.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 240.0, 83.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -92,7 +92,7 @@
 					"patching_rect" : [ 250.0, 130.0, 222.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 240.0, 113.8125, 222.0, 93.0 ],
+					"presentation_rect" : [ 240.0, 114.604166666666671, 222.0, 93.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Set number of output dimensions.\n2. Set maximum dataset size (maxsize).\n3. Set training rate (trainrate).\n4. Turn on random generator."
 				}
 
@@ -115,7 +115,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 116.916666666666671, 214.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 111.8125, 214.0, 214.0 ],
+					"presentation_rect" : [ 20.0, 114.604166666666671, 214.0, 214.0 ],
 					"varname" : "mo.scope[1]",
 					"viewvisibility" : 1
 				}
@@ -163,7 +163,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 343.833333333333314, 214.0, 62.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 337.8125, 214.0, 62.0 ],
+					"presentation_rect" : [ 20.0, 339.208333333333314, 214.0, 62.0 ],
 					"varname" : "mo.pca",
 					"viewvisibility" : 1
 				}
@@ -198,7 +198,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 29.5, 108.0, 29.5, 108.0 ],
+					"midpoints" : [ 29.5, 105.0, 29.5, 105.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -206,7 +206,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 29.5, 408.5, 29.5, 408.5 ],
+					"midpoints" : [ 29.5, 408.0, 29.5, 408.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -214,7 +214,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 29.5, 384.0, 29.5, 384.0 ],
+					"midpoints" : [ 29.5, 333.0, 29.5, 333.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -291,6 +291,38 @@
 ,
 				"obj-1::obj-12" : 				{
 					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-1::obj-6.1::obj-10" : 				{
+					"parameter_longname" : "live.text[780]"
+				}
+,
+				"obj-1::obj-6.1::obj-14" : 				{
+					"parameter_longname" : "live.text[779]"
+				}
+,
+				"obj-1::obj-6.1::obj-15" : 				{
+					"parameter_longname" : "live.numbox[31]"
+				}
+,
+				"obj-1::obj-6.1::obj-27" : 				{
+					"parameter_longname" : "live.numbox[32]"
+				}
+,
+				"obj-1::obj-6.1::obj-32" : 				{
+					"parameter_longname" : "live.numbox[34]"
+				}
+,
+				"obj-1::obj-6.1::obj-33" : 				{
+					"parameter_longname" : "live.text[778]"
+				}
+,
+				"obj-1::obj-6.1::obj-35" : 				{
+					"parameter_longname" : "live.numbox[33]"
+				}
+,
+				"obj-1::obj-6.1::obj-38" : 				{
+					"parameter_longname" : "live.numbox[35]"
 				}
 ,
 				"obj-1::obj-6.2::obj-10" : 				{
@@ -470,10 +502,24 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../../modulo/misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.rand.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../../modulo/patchers/input",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../../modulo/misc/js",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -484,22 +530,15 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../../modulo/misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "pause.svg",
 				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../../modulo/misc/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../../modulo/misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

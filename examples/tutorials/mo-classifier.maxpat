@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 687.0, 572.0 ],
+		"rect" : [ 34.0, 79.0, 683.0, 572.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -79,7 +79,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 20.0, 780.0, 214.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 471.779180105738476, 214.0, 70.0 ],
+					"presentation_rect" : [ 450.0, 483.0, 214.0, 70.0 ],
 					"varname" : "mo.dac~",
 					"viewvisibility" : 1
 				}
@@ -118,9 +118,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.0, 310.0, 214.0, 169.0 ],
+					"patching_rect" : [ 20.0, 310.0, 214.0, 170.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 246.0, 214.0, 169.0 ],
+					"presentation_rect" : [ 20.0, 246.0, 214.0, 170.0 ],
 					"varname" : "mo.classify",
 					"viewvisibility" : 1
 				}
@@ -482,7 +482,8 @@
 			"obj-16::obj-10" : [ "live.text[183]", "live.text", 0 ],
 			"obj-16::obj-18" : [ "live.text[260]", "live.text", 0 ],
 			"obj-16::obj-20" : [ "live.text[259]", "live.text", 0 ],
-			"obj-16::obj-31" : [ "live.text[642]", "live.text", 0 ],
+			"obj-16::obj-31" : [ "live.text[34]", "live.text", 0 ],
+			"obj-16::obj-56" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-1::obj-3" : [ "live.text[605]", "live.text", 0 ],
 			"obj-1::obj-33" : [ "live.text[604]", "live.text", 0 ],
 			"obj-1::obj-42" : [ "live.text[782]", "live.text", 0 ],
@@ -523,12 +524,60 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-16::obj-10" : 				{
+					"parameter_longname" : "live.text[183]"
+				}
+,
+				"obj-16::obj-18" : 				{
+					"parameter_longname" : "live.text[260]"
+				}
+,
+				"obj-16::obj-20" : 				{
+					"parameter_longname" : "live.text[259]"
+				}
+,
+				"obj-1::obj-3" : 				{
+					"parameter_longname" : "live.text[605]"
+				}
+,
+				"obj-1::obj-33" : 				{
+					"parameter_longname" : "live.text[604]"
+				}
+,
+				"obj-1::obj-42" : 				{
+					"parameter_longname" : "live.text[782]"
+				}
+,
+				"obj-31::obj-38" : 				{
+					"parameter_longname" : "live.text[20]"
+				}
+,
 				"obj-31::obj-4" : 				{
 					"parameter_longname" : "live.text[56]"
 				}
 ,
 				"obj-31::obj-56" : 				{
 					"parameter_longname" : "live.numbox[6]"
+				}
+,
+				"obj-31::obj-59" : 				{
+					"parameter_longname" : "live.text[21]"
+				}
+,
+				"obj-56::obj-45" : 				{
+					"parameter_longname" : "live.gain~[1]"
+				}
+,
+				"obj-56::obj-56" : 				{
+					"parameter_longname" : "live.numbox[348]"
+				}
+,
+				"obj-56::obj-7" : 				{
+					"parameter_longname" : "live.text"
+				}
+,
+				"obj-56::obj-8" : 				{
+					"parameter_longname" : "live.text[684]"
 				}
 
 			}
@@ -538,13 +587,6 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo/misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "a-mo.windower.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../../modulo/misc/abstractions",
 				"type" : "JSON",
@@ -626,6 +668,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../../modulo/misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.tabs.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
 				"patcherrelativepath" : "../../../modulo/patchers/input",
@@ -642,13 +691,6 @@
 , 			{
 				"name" : "pause.svg",
 				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "record.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../../modulo/misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
