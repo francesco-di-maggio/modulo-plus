@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 45.0, 214.0, 177.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 176.639552026987076 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -76,8 +76,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -718,6 +718,7 @@
 							"parameter_longname" : "live.numbox[3]",
 							"parameter_mmax" : 5.0,
 							"parameter_mmin" : -5.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -906,6 +907,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -987,6 +989,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[16]",
 							"parameter_mmax" : 600000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -1047,8 +1050,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1465,6 +1468,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[2]",
 							"parameter_mmax" : 2645.011337868480496,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -1505,6 +1509,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[1]",
 							"parameter_mmax" : 2645.011337868480496,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -1602,8 +1607,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1984,7 +1989,7 @@
 					"patching_rect" : [ 1361.5, 914.009496789370587, 138.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.209559142589569, 34.666666656732559, 204.0, 69.0 ],
-					"setminmax" : [ 0.0, 2645.011337868480496 ],
+					"setminmax" : [ 0.0, 2645.01123046875 ],
 					"signed" : 1,
 					"slidercolor" : [ 0.0, 0.0, 0.0, 0.8 ],
 					"spacing" : 3,
@@ -2058,8 +2063,8 @@
 					"id" : "obj-48",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 9,
-					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
+					"numoutlets" : 10,
+					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int", "" ],
 					"patching_rect" : [ 443.448104470968246, 723.0, 103.0, 23.0 ],
 					"text" : "info~ #0-loop"
 				}
@@ -2323,6 +2328,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[355]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -2431,6 +2437,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[17]",
 							"parameter_mmax" : 6000000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -2513,6 +2520,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[359]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -2528,7 +2536,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) signal",
 					"id" : "obj-61",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2610,6 +2618,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[357]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -2638,7 +2647,7 @@
 				"box" : 				{
 					"comment" : "(message) record, playback, loop, clear, length, read, write",
 					"id" : "obj-76",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2651,11 +2660,11 @@
 				"box" : 				{
 					"comment" : "(mc.~) to record",
 					"id" : "obj-77",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 569.948104470968246, 167.0, 30.0, 30.0 ]
 				}
 
@@ -2730,7 +2739,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 967.5, 376.0, 44.0, 15.0 ],
-					"pictures" : [ "play.svg", "stop.svg" ],
+					"pictures" : [ "mo.play.svg", "mo.stop.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.394038144538797, 106.165967787735326, 41.211923710922434, 15.0 ],
 					"remapsvgcolors" : 1,
@@ -2763,6 +2772,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[844]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -2791,7 +2801,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 20.5, 174.5, 44.0, 15.0 ],
-					"pictures" : [ "record.svg", "record.svg" ],
+					"pictures" : [ "mo.record.svg", "mo.record.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.788076289077594, 106.165967787735326, 41.211923710922434, 15.0 ],
 					"remapsvgcolors" : 1,
@@ -2824,6 +2834,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[211]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -2877,6 +2888,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[356]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -3314,7 +3326,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 515.948104470968246, 747.0, 515.948104470968246, 747.0 ],
+					"midpoints" : [ 508.948104470968246, 747.0, 515.948104470968246, 747.0 ],
 					"source" : [ "obj-48", 6 ]
 				}
 
@@ -3856,6 +3868,68 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-131" : [ "live.text[1]", "live.text", 0 ],
+			"obj-141" : [ "live.text[211]", "live.text", 0 ],
+			"obj-34" : [ "live.numbox[1]", "live.dial[12]", 0 ],
+			"obj-36" : [ "live.text[355]", "live.text", 0 ],
+			"obj-37" : [ "live.numbox[2]", "live.dial[12]", 0 ],
+			"obj-44" : [ "live.numbox[17]", "live.dial[12]", 0 ],
+			"obj-51" : [ "live.numbox[3]", "live.dial[12]", 0 ],
+			"obj-71" : [ "live.numbox[16]", "live.dial[12]", 0 ],
+			"obj-73" : [ "live.text[357]", "live.text", 0 ],
+			"obj-82" : [ "live.text[356]", "live.text", 0 ],
+			"obj-85" : [ "live.text[359]", "live.text", 0 ],
+			"obj-92" : [ "live.text[844]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../../modulo/misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.record.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../../modulo/misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../../modulo/misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../../modulo/misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

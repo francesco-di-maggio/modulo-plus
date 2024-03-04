@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 45.0, 70.0, 45.0 ],
 		"openrect" : [ 0.0, 0.0, 70.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -150,6 +150,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[291]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -300,8 +301,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -422,8 +423,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 7,
+											"minor" : 6,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -738,6 +739,7 @@
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "live.text[289]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "live.text[33]",
 											"parameter_type" : 2
 										}
@@ -771,6 +773,7 @@
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "live.text[290]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "live.text[33]",
 											"parameter_type" : 2
 										}
@@ -993,7 +996,7 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-201",
-									"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "UMC1820", ",", "BlackHole", ",", "ZoomAudioDevice" ],
+									"items" : [ "None", ",", "Built-in Output", ",", "BlackHole 2ch", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1316,7 +1319,7 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-98",
-									"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire" ],
+									"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1362,7 +1365,7 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 12.0,
 									"id" : "obj-104",
-									"items" : [ "None", ",", "Built-in Microphone", ",", "UMC1820", ",", "BlackHole", ",", "ZoomAudioDevice", ",", "Aggregate Device" ],
+									"items" : [ "None", ",", "Built-in Microphone", ",", "BlackHole 2ch", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2232,6 +2235,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.dial[36]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -2438,8 +2442,15 @@
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
+				"patcherrelativepath" : "../../../modulo/misc/abstractions",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../../modulo/misc/js",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],

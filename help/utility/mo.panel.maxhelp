@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -140,7 +140,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 535.0, 214.0, 23.0 ],
-					"text" : "bgcolor 0.605 0.395 0.395 1."
+					"text" : "bgcolor 0.75 0.25 0.25 1."
 				}
 
 			}
@@ -394,21 +394,47 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-19::obj-1" : 				{
+					"parameter_initial_enable" : 0
+				}
+,
+				"obj-19::obj-2" : 				{
+					"parameter_initial_enable" : 0
+				}
+,
+				"obj-19::obj-52" : 				{
+					"parameter_initial_enable" : 0
+				}
+,
+				"obj-19::obj-87" : 				{
+
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
+				"patcherrelativepath" : "../../../modulo/misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.panel.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers/utility",
 				"patcherrelativepath" : "../../patchers/utility",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../../modulo/misc/js",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],

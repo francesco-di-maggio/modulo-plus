@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 169.0 ],
+		"rect" : [ 0.0, 45.0, 214.0, 169.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 169.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -269,6 +269,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[986]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -351,6 +352,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[855]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -401,6 +403,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[984]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -464,6 +467,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[988]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -649,8 +653,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1060,7 +1064,7 @@
 				"box" : 				{
 					"comment" : "(message) file, folder, length, rec",
 					"id" : "obj-1",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1232,7 +1236,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) output",
 					"id" : "obj-52",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1244,7 +1248,7 @@
 				"box" : 				{
 					"comment" : "(mc.~) input",
 					"id" : "obj-4",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1591,6 +1595,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[985]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1665,6 +1670,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[987]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1789,6 +1795,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[60]",
 							"parameter_mmax" : 600000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -1885,6 +1892,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[628]",
 							"parameter_mmax" : 60000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial[12]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -1956,6 +1964,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[989]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -2092,8 +2101,8 @@
 					"id" : "obj-80",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 9,
-					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
+					"numoutlets" : 10,
+					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int", "" ],
 					"patching_rect" : [ 332.0, 677.42420200000015, 107.0, 23.0 ],
 					"text" : "info~ init"
 				}
@@ -3038,7 +3047,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-107", 0 ],
-					"midpoints" : [ 429.5, 711.0, 262.5, 711.0 ],
+					"midpoints" : [ 419.722222222222229, 711.0, 262.5, 711.0 ],
 					"order" : 1,
 					"source" : [ "obj-80", 8 ]
 				}
@@ -3047,7 +3056,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-125", 0 ],
-					"midpoints" : [ 407.5, 702.0, 407.5, 702.0 ],
+					"midpoints" : [ 400.166666666666629, 702.0, 407.5, 702.0 ],
 					"source" : [ "obj-80", 6 ]
 				}
 
@@ -3055,7 +3064,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 1 ],
-					"midpoints" : [ 429.5, 702.0, 616.0, 702.0 ],
+					"midpoints" : [ 419.722222222222229, 702.0, 616.0, 702.0 ],
 					"order" : 0,
 					"source" : [ "obj-80", 8 ]
 				}
@@ -3103,6 +3112,71 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-12" : [ "live.text[984]", "live.text", 0 ],
+			"obj-125" : [ "live.numbox[60]", "live.dial[12]", 0 ],
+			"obj-138" : [ "live.numbox[628]", "live.dial[12]", 0 ],
+			"obj-141" : [ "live.text[989]", "live.text", 0 ],
+			"obj-21" : [ "live.text[988]", "live.text", 0 ],
+			"obj-22" : [ "live.text[986]", "live.text", 0 ],
+			"obj-23" : [ "live.text[987]", "live.text", 0 ],
+			"obj-33" : [ "live.text[985]", "live.text", 0 ],
+			"obj-53" : [ "live.text[855]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "loop.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../../modulo/misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.record.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../../modulo/misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../../modulo/misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../../modulo/misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]

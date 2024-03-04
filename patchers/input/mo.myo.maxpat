@@ -356,7 +356,7 @@
 				"box" : 				{
 					"comment" : "(list) info",
 					"id" : "obj-22",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -368,7 +368,7 @@
 				"box" : 				{
 					"comment" : "(message) poses",
 					"id" : "obj-21",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -380,7 +380,7 @@
 				"box" : 				{
 					"comment" : "(list) accelerometer",
 					"id" : "obj-18",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -392,7 +392,7 @@
 				"box" : 				{
 					"comment" : "(list) gyroscope",
 					"id" : "obj-19",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -665,7 +665,7 @@
 				"box" : 				{
 					"comment" : "(list) quaternion",
 					"id" : "obj-48",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -677,7 +677,7 @@
 				"box" : 				{
 					"comment" : "(list) EMGs",
 					"id" : "obj-20",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1117,7 +1117,7 @@
 				"box" : 				{
 					"id" : "obj-35",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 528.3499755859375, 75.0, 82.0, 23.0 ],
@@ -1341,7 +1341,7 @@
 				"box" : 				{
 					"comment" : "(message) refresh, port, hires, setup, mute",
 					"id" : "obj-47",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1751,6 +1751,41 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-15" : [ "live.text[897]", "live.text", 0 ],
+			"obj-30" : [ "live.numbox[654]", "live.numbox", 0 ],
+			"obj-36" : [ "live.text[859]", "live.text", 0 ],
+			"obj-4" : [ "live.text[953]", "live.text", 0 ],
+			"obj-41" : [ "live.text[858]", "live.text", 0 ],
+			"obj-45" : [ "live.text[931]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../../modulo/misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
