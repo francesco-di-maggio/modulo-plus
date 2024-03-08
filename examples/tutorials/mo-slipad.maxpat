@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 349.0, 528.0 ],
+		"rect" : [ 34.0, 87.0, 349.0, 528.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -301,10 +301,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 311.0, 263.0, 185.0, 25.0 ],
+					"patching_rect" : [ 307.0, 263.0, 196.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 136.0, 288.0, 185.0, 25.0 ],
-					"text" : "turn random generator on/off"
+					"presentation_rect" : [ 126.0, 63.0, 196.0, 25.0 ],
+					"text" : "hold/release the \"spacebar\" key"
 				}
 
 			}
@@ -325,7 +325,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 280.0, 265.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 110.0, 290.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 100.0, 65.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -341,15 +341,15 @@
 					"fontface" : 1,
 					"fontname" : "Ableton Sans Bold Regular",
 					"id" : "obj-5",
-					"linecount" : 6,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 280.0, 312.0, 222.0, 93.0 ],
+					"patching_rect" : [ 280.0, 312.5, 234.0, 122.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 110.0, 322.0, 222.0, 93.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Set number of output dimensions.\n2. Set maximum dataset size (maxsize).\n3. Set training rate (trainrate).\n4. Turn on random generator."
+					"presentation_linecount" : 8,
+					"presentation_rect" : [ 100.0, 257.0, 234.0, 122.0 ],
+					"text" : "INSTRUCTIONS:\n\n1. Hold/release the \"spacebar\" key \n     to control the slider.\n2. Click to freeze on current parameter.\n3. Double-click to reset value to zero.\n4. (Optional) Change up/down parameter\n     of timeline module."
 				}
 
 			}
@@ -473,6 +473,7 @@
 			"obj-11::obj-19" : [ "live.text[140]", "live.text", 0 ],
 			"obj-11::obj-3" : [ "slider-[51]", "slider-", 0 ],
 			"obj-11::obj-35" : [ "live.text[139]", "live.text", 0 ],
+			"obj-11::obj-38" : [ "live.text[18]", "live.text", 0 ],
 			"obj-11::obj-56" : [ "live.numbox[9]", "live.numbox", 0 ],
 			"obj-12::obj-13" : [ "live.numbox[19]", "live.numbox", 0 ],
 			"obj-12::obj-15" : [ "live.text[63]", "live.text", 0 ],
@@ -517,6 +518,42 @@
 ,
 				"obj-10::obj-6" : 				{
 					"parameter_longname" : "live.text[16]"
+				}
+,
+				"obj-11::obj-38" : 				{
+					"parameter_longname" : "live.text[18]"
+				}
+,
+				"obj-12::obj-13" : 				{
+					"parameter_longname" : "live.numbox[19]"
+				}
+,
+				"obj-12::obj-15" : 				{
+					"parameter_longname" : "live.text[63]"
+				}
+,
+				"obj-22::obj-126" : 				{
+					"parameter_longname" : "live.text[838]"
+				}
+,
+				"obj-22::obj-16" : 				{
+					"parameter_longname" : "live.text[837]"
+				}
+,
+				"obj-22::obj-51" : 				{
+					"parameter_longname" : "live.numbox[379]"
+				}
+,
+				"obj-22::obj-74" : 				{
+					"parameter_longname" : "live.text[839]"
+				}
+,
+				"obj-22::obj-75" : 				{
+					"parameter_longname" : "live.text[840]"
+				}
+,
+				"obj-22::obj-78" : 				{
+					"parameter_longname" : "live.text[836]"
 				}
 ,
 				"obj-7::obj-2" : 				{

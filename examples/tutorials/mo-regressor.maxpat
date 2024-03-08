@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 686.0, 604.0 ],
+		"rect" : [ 34.0, 87.0, 686.0, 627.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -67,7 +67,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 20.0, 857.292015868484214, 214.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 513.0, 214.0, 70.0 ],
+					"presentation_rect" : [ 450.0, 533.0, 214.0, 70.0 ],
 					"varname" : "mo.dac~[1]",
 					"viewvisibility" : 1
 				}
@@ -91,7 +91,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 20.0, 674.649163172153635, 214.0, 170.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 332.0, 214.0, 170.0 ],
+					"presentation_rect" : [ 450.0, 352.0, 214.0, 170.0 ],
 					"varname" : "mo.fm~",
 					"viewvisibility" : 1
 				}
@@ -477,7 +477,7 @@
 					"patching_rect" : [ 673.19513450935483, 272.118750000000261, 262.0, 107.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 20.0, 466.0, 262.0, 107.0 ],
+					"presentation_rect" : [ 20.0, 496.0, 262.0, 107.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Start dsp, and theremin~ playback.\n2. Record input and target output pairs.\n3. Use xypad to control the sound parameters.\n4. (Optional) Set different scaling factors.\n5. (Optional) Route input to different outputs."
 				}
 
@@ -492,7 +492,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 250.0, 797.292015868484214, 102.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 312.5, 453.0, 102.0, 25.0 ],
+					"presentation_rect" : [ 313.0, 471.0, 102.0, 25.0 ],
 					"text" : "start playback"
 				}
 
@@ -514,7 +514,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 799.792015868484214, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 420.0, 456.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 420.0, 474.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -568,7 +568,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 500.0, 214.0, 154.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 176.0, 214.0, 154.0 ],
+					"presentation_rect" : [ 450.0, 186.0, 214.0, 154.0 ],
 					"varname" : "mo.scale",
 					"viewvisibility" : 1
 				}

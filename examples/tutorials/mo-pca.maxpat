@@ -47,7 +47,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 280.5, 80.499999999999943, 185.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 266.0, 81.0, 185.0, 25.0 ],
+					"presentation_rect" : [ 271.0, 81.0, 185.0, 25.0 ],
 					"text" : "turn random generator on/off"
 				}
 
@@ -69,7 +69,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 250.0, 83.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 83.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 245.0, 83.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -92,7 +92,7 @@
 					"patching_rect" : [ 250.0, 130.0, 222.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 240.0, 114.604166666666671, 222.0, 93.0 ],
+					"presentation_rect" : [ 245.0, 339.0, 222.0, 93.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Set number of output dimensions.\n2. Set maximum dataset size (maxsize).\n3. Set training rate (trainrate).\n4. Turn on random generator."
 				}
 
