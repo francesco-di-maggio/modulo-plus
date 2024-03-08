@@ -194,7 +194,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 102.0, 486.0, 22.0 ],
+					"patching_rect" : [ 9.0, 102.0, 180.0, 22.0 ],
+					"text" : "Control up/down parameters.",
 					"textcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ]
 				}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 1406.0, 821.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 45.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 45.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -37,7 +37,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -1394,7 +1394,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 135.199999999999989, 444.0, 135.300000000000011, 444.0 ],
+					"midpoints" : [ 300.0, 444.0, 135.300000000000011, 444.0 ],
 					"source" : [ "obj-115", 1 ]
 				}
 
@@ -1402,7 +1402,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 217.599999999999994, 444.0, 217.899999999999977, 444.0 ],
+					"midpoints" : [ 300.0, 444.0, 217.899999999999977, 444.0 ],
 					"source" : [ "obj-115", 3 ]
 				}
 
@@ -1410,7 +1410,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 258.800000000000011, 444.0, 258.199999999999989, 444.0 ],
+					"midpoints" : [ 300.0, 444.0, 258.199999999999989, 444.0 ],
 					"order" : 2,
 					"source" : [ "obj-115", 4 ]
 				}

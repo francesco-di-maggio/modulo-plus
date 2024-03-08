@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 506.0, 463.0 ],
+		"rect" : [ 34.0, 87.0, 506.0, 455.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -764,7 +764,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 252.0, 205.0, 214.0, 214.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 278.0, 80.0, 214.0, 214.0 ],
+					"presentation_rect" : [ 278.0, 77.0, 214.0, 214.0 ],
 					"varname" : "mo.scope",
 					"viewvisibility" : 1
 				}
