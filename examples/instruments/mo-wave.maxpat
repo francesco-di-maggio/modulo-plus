@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -54,9 +55,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 141.875, 137.25, 286.0, 70.0 ],
+					"patching_rect" : [ 141.875, 137.25, 214.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 77.071428999999995, 286.0, 70.0 ],
+					"presentation_rect" : [ 20.0, 77.071428999999995, 214.0, 70.0 ],
 					"varname" : "mo.hslider",
 					"viewvisibility" : 1
 				}
@@ -77,16 +78,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-12",
 					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 141.875, 246.0, 377.0, 93.0 ],
+					"patching_rect" : [ 141.875, 246.0, 369.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 20.0, 159.071428999999995, 377.0, 93.0 ],
+					"presentation_rect" : [ 20.0, 159.071428999999995, 369.0, 93.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Download, and open the Software app:\n     https://genkiinstruments.com/products/softwave\n2. Connect Wave, and open Preset 14. MIDI - Vibrato to Pitch Bend.\n3. In Max, set MIDI input device to \"Wave\"."
 				}
 
@@ -94,6 +95,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -182,6 +184,7 @@
 			"obj-3::obj-19" : [ "live.text[2]", "live.text", 0 ],
 			"obj-3::obj-3" : [ "slider-", "slider-", 0 ],
 			"obj-3::obj-35" : [ "live.text[19]", "live.text", 0 ],
+			"obj-3::obj-38" : [ "live.text[9]", "live.text", 0 ],
 			"obj-3::obj-56" : [ "live.numbox[5]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -212,6 +215,10 @@
 				"obj-3::obj-35" : 				{
 					"parameter_longname" : "live.text[19]"
 				}
+,
+				"obj-3::obj-56" : 				{
+					"parameter_longname" : "live.numbox[5]"
+				}
 
 			}
 ,
@@ -221,36 +228,40 @@
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../misc/abstractions",
+				"patcherrelativepath" : "../../../modulo/misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.color.txt",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/colls",
-				"patcherrelativepath" : "../../misc/colls",
+				"patcherrelativepath" : "../../../modulo/misc/colls",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.hslider.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/input",
-				"patcherrelativepath" : "../../patchers/input",
+				"patcherrelativepath" : "../../../modulo/patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.midiin.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
-				"patcherrelativepath" : "../../patchers/route",
+				"patcherrelativepath" : "../../../modulo/patchers/route",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../../modulo/misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

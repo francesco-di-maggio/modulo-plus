@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -45,8 +46,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 269.0, 80.0, 72.0, 23.0 ],
-					"text" : "prepend set"
+					"patching_rect" : [ 269.0, 80.0, 88.0, 23.0 ],
+					"text" : "prepend setlist"
 				}
 
 			}
@@ -100,6 +101,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-18",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -115,7 +117,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 2, 4 ],
+					"args" : [ 2, 6 ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -169,6 +171,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-21",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -213,6 +216,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -256,6 +260,7 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 3,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -298,6 +303,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-27",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -413,6 +419,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -468,16 +475,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-2",
 					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 673.19513450935483, 272.118750000000261, 262.0, 107.0 ],
+					"patching_rect" : [ 673.19513450935483, 272.118750000000261, 255.0, 107.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 20.0, 496.0, 262.0, 107.0 ],
+					"presentation_rect" : [ 20.0, 496.0, 255.0, 107.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Start dsp, and theremin~ playback.\n2. Record input and target output pairs.\n3. Use xypad to control the sound parameters.\n4. (Optional) Set different scaling factors.\n5. (Optional) Route input to different outputs."
 				}
 
@@ -486,6 +493,7 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 3,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -528,6 +536,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-29",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -588,7 +597,17 @@
 						"mo.sliders::[3]::slider" : 1,
 						"mo.sliders::[4]::slider" : 1,
 						"mo.sliders::[5]::slider" : 1,
-						"mo.sliders::[6]::slider" : 1
+						"mo.sliders::[6]::slider" : 1,
+						"mo.sliders::[7]::slider" : 1,
+						"mo.sliders::[8]::slider" : 1,
+						"mo.sliders::[9]::slider" : 1,
+						"mo.sliders::[10]::slider" : 1,
+						"mo.sliders::[11]::slider" : 1,
+						"mo.sliders::[12]::slider" : 1,
+						"mo.sliders::[13]::slider" : 1,
+						"mo.sliders::[14]::slider" : 1,
+						"mo.sliders::[15]::slider" : 1,
+						"mo.sliders::[16]::slider" : 1
 					}
 ,
 					"saved_object_attributes" : 					{
@@ -1519,10 +1538,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

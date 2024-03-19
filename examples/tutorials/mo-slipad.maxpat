@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -297,13 +298,14 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-27",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 307.0, 263.0, 196.0, 25.0 ],
+					"patching_rect" : [ 307.0, 263.0, 199.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 126.0, 63.0, 196.0, 25.0 ],
+					"presentation_rect" : [ 126.0, 62.5, 196.0, 25.0 ],
 					"text" : "hold/release the \"spacebar\" key"
 				}
 
@@ -339,16 +341,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-5",
 					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 280.0, 312.5, 234.0, 122.0 ],
+					"patching_rect" : [ 280.0, 312.5, 230.0, 122.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
-					"presentation_rect" : [ 100.0, 257.0, 234.0, 122.0 ],
+					"presentation_rect" : [ 100.0, 257.0, 230.0, 122.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Hold/release the \"spacebar\" key \n     to control the slider.\n2. Click to freeze on current parameter.\n3. Double-click to reset value to zero.\n4. (Optional) Change up/down parameter\n     of timeline module."
 				}
 
@@ -520,6 +522,14 @@
 					"parameter_longname" : "live.text[16]"
 				}
 ,
+				"obj-11::obj-19" : 				{
+					"parameter_longname" : "live.text[140]"
+				}
+,
+				"obj-11::obj-35" : 				{
+					"parameter_longname" : "live.text[139]"
+				}
+,
 				"obj-11::obj-38" : 				{
 					"parameter_longname" : "live.text[18]"
 				}
@@ -554,6 +564,18 @@
 ,
 				"obj-22::obj-78" : 				{
 					"parameter_longname" : "live.text[836]"
+				}
+,
+				"obj-6::obj-2" : 				{
+					"parameter_longname" : "live.text[187]"
+				}
+,
+				"obj-6::obj-22" : 				{
+					"parameter_longname" : "live.text[910]"
+				}
+,
+				"obj-6::obj-6" : 				{
+					"parameter_longname" : "live.text[724]"
 				}
 ,
 				"obj-7::obj-2" : 				{
@@ -637,10 +659,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

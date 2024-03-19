@@ -11,14 +11,14 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 34.0, 87.0, 723.0, 471.0 ],
-		"bglocked" : 1,
+		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -271,7 +272,7 @@
 					"background" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.3 ],
+					"bordercolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"id" : "obj-702",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -280,6 +281,13 @@
 					"patching_rect" : [ 41.0, 230.0, 430.0, 170.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
+					"saved_attribute_attributes" : 					{
+						"bordercolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"shape" : 1
 				}
 
@@ -290,7 +298,7 @@
 					"background" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.3 ],
+					"bordercolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"id" : "obj-737",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -299,6 +307,13 @@
 					"patching_rect" : [ 41.0, 230.0, 70.0, 45.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
+					"saved_attribute_attributes" : 					{
+						"bordercolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"shape" : 1
 				}
 
@@ -309,7 +324,7 @@
 					"background" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.3 ],
+					"bordercolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"id" : "obj-728",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -318,6 +333,13 @@
 					"patching_rect" : [ 41.0, 230.0, 214.0, 214.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
+					"saved_attribute_attributes" : 					{
+						"bordercolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"shape" : 1
 				}
 
@@ -328,7 +350,7 @@
 					"background" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.3 ],
+					"bordercolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"id" : "obj-718",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -337,6 +359,13 @@
 					"patching_rect" : [ 41.0, 230.0, 214.0, 84.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
+					"saved_attribute_attributes" : 					{
+						"bordercolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"shape" : 1
 				}
 
@@ -347,7 +376,7 @@
 					"background" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.3 ],
+					"bordercolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"id" : "obj-712",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -356,6 +385,13 @@
 					"patching_rect" : [ 41.0, 230.0, 70.0, 96.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
+					"saved_attribute_attributes" : 					{
+						"bordercolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"shape" : 1
 				}
 
@@ -366,7 +402,7 @@
 					"background" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.3 ],
+					"bordercolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"id" : "obj-721",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -375,6 +411,13 @@
 					"patching_rect" : [ 41.0, 230.0, 70.0, 62.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
+					"saved_attribute_attributes" : 					{
+						"bordercolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"shape" : 1
 				}
 
@@ -385,7 +428,7 @@
 					"background" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.3 ],
+					"bordercolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"id" : "obj-706",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -394,6 +437,13 @@
 					"patching_rect" : [ 41.0, 230.0, 70.0, 23.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
+					"saved_attribute_attributes" : 					{
+						"bordercolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"shape" : 1
 				}
 
@@ -450,6 +500,18 @@
 ,
 				"obj-1::obj-43" : 				{
 					"parameter_longname" : "live.menu[25]"
+				}
+,
+				"obj-312::obj-2" : 				{
+					"parameter_longname" : "live.text[187]"
+				}
+,
+				"obj-312::obj-22" : 				{
+					"parameter_longname" : "live.text[910]"
+				}
+,
+				"obj-312::obj-6" : 				{
+					"parameter_longname" : "live.text[724]"
 				}
 ,
 				"obj-316::obj-2" : 				{
@@ -536,10 +598,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

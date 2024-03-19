@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -16,8 +16,8 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -112,8 +112,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 409.5, 361.047930985689163, 117.0, 39.0 ],
-					"text" : "randomize range \nfor each voice"
+					"patching_rect" : [ 409.5, 361.047930985689163, 115.0, 39.0 ],
+					"text" : "randomize range\nfor each voice"
 				}
 
 			}
@@ -126,8 +126,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 341.5, 328.047930985689163, 132.0, 25.0 ],
-					"text" : "set amount (0. - 1.) "
+					"patching_rect" : [ 341.5, 328.047930985689163, 130.0, 25.0 ],
+					"text" : "set amount (0. - 1.)"
 				}
 
 			}
@@ -154,8 +154,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.640615909090684, 208.0, 133.0, 25.0 ],
-					"text" : "number of numbers "
+					"patching_rect" : [ 160.640615909090684, 208.0, 130.0, 25.0 ],
+					"text" : "number of numbers"
 				}
 
 			}
@@ -180,8 +180,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 98.5, 167.0, 144.0, 25.0 ],
-					"text" : "turn on/off generator "
+					"patching_rect" : [ 98.5, 167.0, 141.0, 25.0 ],
+					"text" : "turn on/off generator"
 				}
 
 			}
@@ -225,6 +225,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "toggle[2]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "toggle",
 							"parameter_type" : 2
 						}
@@ -268,8 +269,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 179.140615909090684, 246.047930985689163, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 179.140615909090684, 246.047930985689163, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}
@@ -579,6 +580,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../../modulo/misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mo.rand~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
@@ -586,24 +594,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
-				"patcherrelativepath" : "../../../modulo/misc/icons",
-				"type" : "svg",
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../../modulo/misc/js",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "stop.svg",
+				"name" : "mo.stop.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../../modulo/misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

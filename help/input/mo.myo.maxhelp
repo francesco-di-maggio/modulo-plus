@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -174,11 +174,12 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-40",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 287.0, 593.5, 119.0, 21.0 ],
+					"patching_rect" : [ 287.0, 593.5, 121.0, 21.0 ],
 					"text" : "armsync information"
 				}
 
@@ -191,13 +192,13 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 410.0, 592.5, 196.0, 23.0 ],
-					"text" : "1 Right TowardElbow 2.667 Warm"
+					"patching_rect" : [ 410.0, 592.5, 196.0, 23.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-41",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -215,46 +216,51 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 410.0, 562.0, 170.0, 23.0 ],
-					"text" : "myo-R"
+					"patching_rect" : [ 410.0, 562.0, 170.0, 23.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-74",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 630.0, 39.0, 21.0 ],
+					"patching_rect" : [ 187.0, 630.0, 37.0, 35.0 ],
 					"text" : "EMGs"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-73",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 469.0, 537.0, 98.0, 21.0 ],
+					"patching_rect" : [ 469.0, 537.0, 102.0, 21.0 ],
 					"text" : "battery level (%)"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-72",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 410.0, 537.0, 33.0, 21.0 ],
+					"patching_rect" : [ 410.0, 537.0, 30.0, 35.0 ],
 					"text" : "RSSI"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-70",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -266,17 +272,19 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-68",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 117.0, 630.0, 33.0, 21.0 ],
+					"patching_rect" : [ 117.0, 630.0, 35.0, 21.0 ],
 					"text" : "quat"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-67",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -288,6 +296,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-66",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -305,8 +314,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 271.184972725972557, 484.0, 123.0, 23.0 ],
-					"text" : "rest"
+					"patching_rect" : [ 271.184972725972557, 484.0, 123.0, 23.0 ]
 				}
 
 			}
@@ -489,8 +497,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 70.0, 167.0, 95.0, 25.0 ],
-					"text" : "mute output "
+					"patching_rect" : [ 70.0, 167.0, 92.0, 25.0 ],
+					"text" : "mute output"
 				}
 
 			}
@@ -503,8 +511,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 269.707317113876343, 215.0, 130.0, 25.0 ],
-					"text" : "set input MIDI port "
+					"patching_rect" : [ 269.707317113876343, 215.0, 127.0, 25.0 ],
+					"text" : "set input MIDI port"
 				}
 
 			}
@@ -868,10 +876,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

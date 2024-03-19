@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -54,9 +55,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 20.0, 500.0, 214.0, 214.0 ],
+					"patching_rect" : [ 20.0, 500.0, 214.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 246.0, 214.0, 214.0 ],
+					"presentation_rect" : [ 450.0, 401.0, 214.0, 70.0 ],
 					"varname" : "mo.playlist~",
 					"viewvisibility" : 1
 				}
@@ -77,7 +78,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 20.0, 780.0, 214.0, 70.0 ],
+					"patching_rect" : [ 20.0, 590.0, 214.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 450.0, 483.0, 214.0, 70.0 ],
 					"varname" : "mo.dac~",
@@ -88,6 +89,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-18",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -157,12 +159,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-21",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 308.5, 685.532565717592547, 160.0, 39.0 ],
+					"patching_rect" : [ 309.0, 503.0, 160.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 272.5, 299.265591540923594, 160.0, 39.0 ],
@@ -185,7 +188,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 280.0, 695.032565717592547, 20.0, 20.0 ],
+					"patching_rect" : [ 280.0, 512.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 244.0, 308.765591540923594, 20.0, 20.0 ],
 					"rounded" : 60.0,
@@ -201,11 +204,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 308.5, 660.532565717592547, 108.0, 25.0 ],
+					"patching_rect" : [ 309.0, 478.0, 108.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 272.5, 273.265591540923594, 108.0, 25.0 ],
 					"text" : "record example"
@@ -227,7 +231,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 280.0, 663.032565717592547, 20.0, 20.0 ],
+					"patching_rect" : [ 280.0, 480.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 244.0, 275.765591540923594, 20.0, 20.0 ],
 					"rounded" : 60.0,
@@ -243,6 +247,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -285,6 +290,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-27",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -376,11 +382,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 754.57013450935483, 451.065131435185094, 74.0, 25.0 ],
+					"patching_rect" : [ 754.57013450935483, 451.065131435185094, 77.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 356.5, 420.0, 74.0, 25.0 ],
 					"text" : "start dsp"
@@ -431,16 +438,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-2",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 673.19513450935483, 310.0, 245.0, 79.0 ],
+					"patching_rect" : [ 673.19513450935483, 310.0, 238.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 254.0, 21.5, 245.0, 79.0 ],
+					"presentation_rect" : [ 254.0, 21.5, 238.0, 79.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Start dsp.\n2. Record input and target output pairs.\n3. Use xypad to start/stop different tracks."
 				}
 
@@ -449,7 +456,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
-					"midpoints" : [ 29.5, 768.0, 29.5, 768.0 ],
+					"midpoints" : [ 29.5, 573.0, 29.5, 573.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -457,7 +464,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
-					"midpoints" : [ 29.5, 288.0, 29.5, 288.0 ],
+					"midpoints" : [ 29.5, 237.0, 29.5, 237.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -473,6 +480,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 29.5, 483.0, 29.5, 483.0 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -607,18 +615,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "drumLoop.aif",
-				"bootpath" : "C74:/media/msp",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "duduk.aif",
-				"bootpath" : "C74:/media/msp",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "fluid.dataset~.mxo",
 				"type" : "iLaX"
 			}
@@ -702,17 +698,8 @@
 				"type" : "svg",
 				"implicit" : 1
 			}
-, 			{
-				"name" : "sho0630.aif",
-				"bootpath" : "C74:/media/msp",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

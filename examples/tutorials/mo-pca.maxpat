@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,16 +36,18 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-27",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 280.5, 80.499999999999943, 185.0, 25.0 ],
+					"patching_rect" : [ 280.5, 80.499999999999943, 193.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 271.0, 81.0, 185.0, 25.0 ],
 					"text" : "turn random generator on/off"
@@ -83,16 +85,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-5",
 					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.0, 130.0, 222.0, 93.0 ],
+					"patching_rect" : [ 250.0, 130.0, 217.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 245.0, 339.0, 222.0, 93.0 ],
+					"presentation_rect" : [ 245.0, 339.0, 217.0, 93.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Set number of output dimensions.\n2. Set maximum dataset size (maxsize).\n3. Set training rate (trainrate).\n4. Turn on random generator."
 				}
 
@@ -543,10 +545,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

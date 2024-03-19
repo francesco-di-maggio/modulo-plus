@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -112,6 +112,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-8",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -185,8 +186,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -801,6 +802,29 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-2::obj-135" : 				{
+					"parameter_longname" : "live.text[929]"
+				}
+,
+				"obj-2::obj-155" : 				{
+					"parameter_longname" : "live.numbox[50]"
+				}
+,
+				"obj-2::obj-31" : 				{
+					"parameter_longname" : "live.numbox[333]"
+				}
+,
+				"obj-2::obj-7" : 				{
+					"parameter_longname" : "live.text[948]"
+				}
+,
+				"obj-2::obj-70" : 				{
+					"parameter_longname" : "live.numbox[358]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
@@ -819,14 +843,18 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../../modulo/misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "pipo.mxo",
 				"type" : "iLaX"
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

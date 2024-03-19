@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
+		"rect" : [ 0.0, 53.0, 214.0, 62.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 62.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -19,7 +19,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -38,6 +38,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -135,7 +136,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
-					"activebgoncolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.4, 0.3, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -222,6 +223,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -233,6 +235,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-32",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -351,6 +354,7 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-82",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -764,7 +768,7 @@
 				"box" : 				{
 					"comment" : "(list) output",
 					"id" : "obj-8",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -838,7 +842,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.200000000000045, 292.0, 90.0, 18.0 ],
+					"patching_rect" : [ 190.200000000000045, 292.0, 92.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 84.0, 25.0, 46.0, 18.0 ],
 					"text" : "trainrate"
@@ -849,7 +853,7 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.298037976026535, 0.298046916723251, 0.298041820526123, 0.0 ],
 					"activetricolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"activetricolor2" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
+					"activetricolor2" : [ 1.0, 0.4, 0.3, 1.0 ],
 					"appearance" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
@@ -900,6 +904,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "trainrate-"
 				}
 
@@ -908,7 +913,7 @@
 				"box" : 				{
 					"comment" : "(list) output/prediction",
 					"id" : "obj-98",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -920,11 +925,11 @@
 				"box" : 				{
 					"comment" : "(list) input",
 					"id" : "obj-27",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "list" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 84.200000000000045, 13.0, 30.0, 30.0 ]
 				}
 
@@ -972,6 +977,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "voices-"
 				}
 
@@ -1019,6 +1025,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "dims-"
 				}
 
@@ -1067,6 +1074,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "maxsize-"
 				}
 
@@ -1074,7 +1082,8 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.298037976026535, 0.298046916723251, 0.298041820526123, 0.0 ],
-					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activebgoncolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
+					"activetextcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.313725, 0.313725, 0.313725, 0.0 ],
 					"id" : "obj-41",
@@ -1593,6 +1602,7 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"fontname" : "Ableton Sans Medium",
 													"id" : "obj-11",
 													"linecount" : 2,
 													"maxclass" : "comment",
@@ -1738,7 +1748,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-12",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -4628,6 +4637,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-46",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -5152,9 +5162,65 @@
 
 			}
  ],
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"parameters" : 		{
+			"obj-24" : [ "live.text[635]", "number", 0 ],
+			"obj-41" : [ "live.text[914]", "live.text", 0 ],
+			"obj-7" : [ "live.text[874]", "live.text", 0 ],
+			"obj-70" : [ "live.numbox[28]", "live.numbox", 0 ],
+			"obj-84" : [ "live.numbox[29]", "live.numbox", 0 ],
+			"obj-99" : [ "live.numbox[30]", "live.numbox", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.buf2list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.list2buf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.normalize~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.pca~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.stats.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../../modulo/misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

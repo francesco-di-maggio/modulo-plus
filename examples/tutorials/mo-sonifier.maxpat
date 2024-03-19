@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,7 +36,8 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -113,16 +114,17 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-17",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 288.0, 67.0, 139.0, 39.0 ],
+					"patching_rect" : [ 288.0, 67.0, 141.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 266.0, 51.0, 139.0, 39.0 ],
-					"text" : "1. adjust parameters \n2. turn on simulator"
+					"presentation_rect" : [ 266.0, 51.0, 136.0, 39.0 ],
+					"text" : "1. adjust parameters\n2. turn on simulator"
 				}
 
 			}
@@ -182,12 +184,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-15",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 288.0, 172.0, 165.0, 39.0 ],
+					"patching_rect" : [ 288.0, 172.0, 164.0, 54.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 266.0, 146.5, 165.0, 39.0 ],
@@ -226,11 +229,12 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 369.188911750912666, 437.881249999999739, 74.0, 25.0 ],
+					"patching_rect" : [ 369.188911750912666, 437.881249999999739, 77.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 334.0, 453.0, 74.0, 25.0 ],
 					"text" : "start dsp"
@@ -281,16 +285,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-2",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 287.813911750912666, 300.0, 215.0, 79.0 ],
+					"patching_rect" : [ 287.813911750912666, 300.0, 210.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 241.0, 204.0, 215.0, 79.0 ],
+					"presentation_rect" : [ 241.0, 204.0, 210.0, 79.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Start/stop random generator.\n2. Set lowpass filter to DIRECT or LPF.\n3. Adjust cutoff frequency."
 				}
 
@@ -606,13 +610,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "a-mo.exposer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo/misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "a-mo.onepole~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
@@ -676,10 +673,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }

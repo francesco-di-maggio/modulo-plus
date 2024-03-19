@@ -66,7 +66,7 @@
 						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
-						"gridsnaponopen" : 2,
+						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
@@ -84,7 +84,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
-						"subpatcher_template" : "mo.main",
+						"subpatcher_template" : " ",
 						"showontab" : 1,
 						"helpsidebarclosed" : 1,
 						"assistshowspatchername" : 0,
@@ -473,22 +473,16 @@
 								}
 
 							}
- ],
-						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+ ]
 					}
 ,
 					"patching_rect" : [ 26.0, 58.0, 41.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"tags" : "",
-						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+						"tags" : ""
 					}
 ,
 					"text" : "p load",
@@ -521,7 +515,7 @@
 						"default_fontname" : "Ableton Sans Medium",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
-						"gridsnaponopen" : 2,
+						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
@@ -539,7 +533,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
-						"subpatcher_template" : "mo.main",
+						"subpatcher_template" : " ",
 						"showontab" : 1,
 						"helpsidebarclosed" : 1,
 						"assistshowspatchername" : 0,
@@ -771,8 +765,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 367.398149454545774, 202.0, 109.0, 25.0 ],
-									"text" : "start recording "
+									"patching_rect" : [ 367.398149454545774, 202.0, 106.0, 25.0 ],
+									"text" : "start recording"
 								}
 
 							}
@@ -1073,22 +1067,16 @@
 								}
 
 							}
- ],
-						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+ ]
 					}
 ,
 					"patching_rect" : [ 26.0, 25.0, 54.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontname" : "Ableton Sans Medium",
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"tags" : "",
-						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+						"tags" : ""
 					}
 ,
 					"text" : "p record",
@@ -1222,8 +1210,8 @@
  ],
 		"autosave" : 0,
 		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"bgcolor" : [ 0.158640686729218, 0.158640643137773, 0.158640654586123, 1.0 ],
+		"editing_bgcolor" : [ 0.158640686729218, 0.158640643137773, 0.158640654586123, 1.0 ],
 		"saved_attribute_attributes" : 		{
 			"editing_bgcolor" : 			{
 				"expression" : "themecolor.live_surface_bg"

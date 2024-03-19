@@ -18,7 +18,7 @@
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 2,
+		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -36,17 +36,19 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "mo.main",
+		"subpatcher_template" : " ",
+		"helpsidebarclosed" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-19",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 126.0, 310.0, 131.0, 39.0 ],
+					"patching_rect" : [ 126.0, 310.0, 136.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 125.0, 286.0, 131.0, 39.0 ],
@@ -90,7 +92,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 585.0, 103.5, 194.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "read p-mo.normalizer.json, recall 1"
 				}
 
@@ -110,6 +111,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-29",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -169,23 +171,11 @@
 						"mo.sliders::[1]::slider" : 1,
 						"mo.sliders::[2]::slider" : 1,
 						"mo.sliders::[3]::slider" : 1,
-						"mo.sliders::[4]::slider" : 1,
-						"mo.sliders::[5]::slider" : 1,
-						"mo.sliders::[6]::slider" : 1,
-						"mo.sliders::[7]::slider" : 1,
-						"mo.sliders::[8]::slider" : 1,
-						"mo.sliders::[9]::slider" : 1,
-						"mo.sliders::[10]::slider" : 1,
-						"mo.sliders::[11]::slider" : 1,
-						"mo.sliders::[12]::slider" : 1,
-						"mo.sliders::[13]::slider" : 1,
-						"mo.sliders::[14]::slider" : 1,
-						"mo.sliders::[15]::slider" : 1,
-						"mo.sliders::[16]::slider" : 1
+						"mo.sliders::[4]::slider" : 1
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 45, 1440, 407 ],
+						"client_rect" : [ 4, 100, 413, 948 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -204,8 +194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 510.0, 201.5, 53.0, 30.0 ],
-					"pattrstorage" : "p-mo.fm"
+					"patching_rect" : [ 510.0, 201.5, 53.0, 30.0 ]
 				}
 
 			}
@@ -311,12 +300,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-17",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 268.0, 75.0, 141.0, 39.0 ],
+					"patching_rect" : [ 268.0, 75.0, 143.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 266.0, 74.0, 141.0, 39.0 ],
@@ -355,16 +345,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Bold Regular",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-2",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 262.0, 177.0, 215.0, 79.0 ],
+					"patching_rect" : [ 262.0, 177.0, 210.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 250.0, 162.0, 215.0, 79.0 ],
+					"presentation_rect" : [ 250.0, 162.0, 210.0, 79.0 ],
 					"text" : "INSTRUCTIONS:\n\n1. Start/stop random generator.\n2. Set lowpass filter to DIRECT or LPF.\n3. Adjust cutoff frequency."
 				}
 
@@ -914,6 +904,14 @@
 					"parameter_longname" : "live.text[123]"
 				}
 ,
+				"obj-14::obj-123::obj-72" : 				{
+					"parameter_longname" : "live.numbox[20]"
+				}
+,
+				"obj-14::obj-15" : 				{
+					"parameter_longname" : "live.numbox[81]"
+				}
+,
 				"obj-14::obj-16" : 				{
 					"parameter_longname" : "live.text[159]"
 				}
@@ -1126,6 +1124,14 @@
 					"parameter_longname" : "live.numbox[21]"
 				}
 ,
+				"obj-14::obj-59" : 				{
+					"parameter_longname" : "live.numbox[80]"
+				}
+,
+				"obj-14::obj-72" : 				{
+					"parameter_longname" : "live.numbox[79]"
+				}
+,
 				"obj-14::obj-74::obj-26" : 				{
 					"parameter_longname" : "live.text[124]"
 				}
@@ -1275,10 +1281,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-		"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-		"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+		"autosave" : 0
 	}
 
 }
