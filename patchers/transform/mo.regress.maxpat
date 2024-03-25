@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 214.0, 170.0 ],
+		"rect" : [ 0.0, 53.0, 1406.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 214.0, 170.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -128,7 +128,7 @@
 				"box" : 				{
 					"comment" : "(list) output/prediction",
 					"id" : "obj-17",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -697,7 +697,7 @@
 				"box" : 				{
 					"comment" : "(list) output",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -868,7 +868,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1124,7 +1124,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1524,7 +1524,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1800,7 +1800,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2012,7 +2012,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2227,7 +2227,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2510,7 +2510,7 @@
 				"box" : 				{
 					"comment" : "(list) output/prediction",
 					"id" : "obj-98",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2522,7 +2522,7 @@
 				"box" : 				{
 					"comment" : "(list) output",
 					"id" : "obj-42",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2535,7 +2535,7 @@
 				"box" : 				{
 					"comment" : "(list) input",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2731,7 +2731,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3409,7 +3409,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3755,7 +3755,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6073,71 +6073,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-113" : [ "live.text[973]", "live.text", 0 ],
-			"obj-147" : [ "live.text[976]", "live.text", 0 ],
-			"obj-21" : [ "live.text[951]", "number", 0 ],
-			"obj-26" : [ "number[31]", "number", 0 ],
-			"obj-37" : [ "live.text[980]", "number", 0 ],
-			"obj-40" : [ "number[32]", "number[1]", 0 ],
-			"obj-41" : [ "live.text[952]", "live.text", 0 ],
-			"obj-45" : [ "live.text[974]", "live.text", 0 ],
-			"obj-46" : [ "live.text[977]", "live.text", 0 ],
-			"obj-54" : [ "live.text[979]", "live.text", 0 ],
-			"obj-55" : [ "live.text[978]", "live.text", 0 ],
-			"obj-66" : [ "number[33]", "number", 0 ],
-			"obj-67" : [ "live.text[918]", "live.text", 0 ],
-			"obj-70" : [ "live.numbox[371]", "live.numbox", 0 ],
-			"obj-84" : [ "live.numbox[626]", "live.numbox", 0 ],
-			"obj-9" : [ "live.numbox[454]", "live.text", 0 ],
-			"obj-92" : [ "live.text[981]", "live.text", 0 ],
-			"obj-93" : [ "live.text[975]", "live.text", 0 ],
-			"obj-99" : [ "live.numbox[594]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
-				"patcherrelativepath" : "../../../modulo/misc/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fluid.buf2list.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.dataset~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.list2buf.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.mlpregressor~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mo.resize.js",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
-				"patcherrelativepath" : "../../../modulo/misc/js",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

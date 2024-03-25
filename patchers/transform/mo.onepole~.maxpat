@@ -145,7 +145,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[76]",
+							"parameter_longname" : "live.text[625]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -248,7 +248,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "MUTE", "DIRECT", "LPF" ],
-							"parameter_longname" : "live.tab[31]",
+							"parameter_longname" : "live.tab[47]",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab",
@@ -290,14 +290,14 @@
 						}
 ,
 						"textcolor" : 						{
-							"expression" : "themecolor.live_control_text_selection"
+							"expression" : ""
 						}
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 3.333,
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[14]",
+							"parameter_longname" : "live.numbox[665]",
 							"parameter_mmax" : 20000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
@@ -307,7 +307,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"textcolor" : [ 0.113725490196078, 0.113725490196078, 0.113725490196078, 1.0 ],
 					"varname" : "cutoff-"
 				}
 
@@ -1140,7 +1140,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[15]",
+							"parameter_longname" : "live.numbox[671]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
@@ -1564,6 +1564,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-74",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -1626,7 +1627,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 208.0, 30.999315525918519, 30.0, 30.0 ]
 				}
 

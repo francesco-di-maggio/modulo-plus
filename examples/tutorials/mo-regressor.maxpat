@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -597,17 +597,7 @@
 						"mo.sliders::[3]::slider" : 1,
 						"mo.sliders::[4]::slider" : 1,
 						"mo.sliders::[5]::slider" : 1,
-						"mo.sliders::[6]::slider" : 1,
-						"mo.sliders::[7]::slider" : 1,
-						"mo.sliders::[8]::slider" : 1,
-						"mo.sliders::[9]::slider" : 1,
-						"mo.sliders::[10]::slider" : 1,
-						"mo.sliders::[11]::slider" : 1,
-						"mo.sliders::[12]::slider" : 1,
-						"mo.sliders::[13]::slider" : 1,
-						"mo.sliders::[14]::slider" : 1,
-						"mo.sliders::[15]::slider" : 1,
-						"mo.sliders::[16]::slider" : 1
+						"mo.sliders::[6]::slider" : 1
 					}
 ,
 					"saved_object_attributes" : 					{
@@ -1139,6 +1129,11 @@
 					"parameter_longname" : "live.text[56]"
 				}
 ,
+				"obj-36::obj-40" : 				{
+					"parameter_initial" : 20.0,
+					"parameter_initial_enable" : 1
+				}
+,
 				"obj-7::obj-107::obj-26" : 				{
 					"parameter_longname" : "live.text[12]"
 				}
@@ -1157,6 +1152,10 @@
 ,
 				"obj-7::obj-123::obj-26" : 				{
 					"parameter_longname" : "live.text[728]"
+				}
+,
+				"obj-7::obj-123::obj-33" : 				{
+					"parameter_longname" : "live.text[79]"
 				}
 ,
 				"obj-7::obj-123::obj-35" : 				{
