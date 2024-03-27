@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -224,11 +224,10 @@
 				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-74",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 630.0, 37.0, 35.0 ],
+					"patching_rect" : [ 187.0, 630.0, 39.0, 21.0 ],
 					"text" : "EMGs"
 				}
 
@@ -249,11 +248,10 @@
 				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-72",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 410.0, 537.0, 30.0, 35.0 ],
+					"patching_rect" : [ 410.0, 537.0, 33.0, 21.0 ],
 					"text" : "RSSI"
 				}
 

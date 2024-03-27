@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -153,10 +153,10 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.0, 471.0, 69.0, 123.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 3,
 					"signed" : 1,
 					"size" : 2,
+					"slidercolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 1.0 ],
 					"spacing" : 2,
 					"varname" : "mo.sliders[1]"
 				}
