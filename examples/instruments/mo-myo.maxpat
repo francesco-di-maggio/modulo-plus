@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 636.0, 268.0 ],
+		"rect" : [ 34.0, 87.0, 636.0, 278.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,49 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 267.0, 42.0, 106.0, 25.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 267.0, 41.0, 106.0, 25.0 ],
+					"text" : "connect device"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 10.0,
+					"hint" : "",
+					"id" : "obj-5",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 240.0, 45.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 240.0, 44.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "2",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ 8 ],
 					"bgmode" : 0,
 					"border" : 1,
@@ -58,7 +101,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 327.0, 164.0, 70.0, 96.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 452.0, 92.0, 70.0, 96.0 ],
+					"presentation_rect" : [ 452.0, 102.0, 70.0, 96.0 ],
 					"varname" : "mo.rms~",
 					"viewvisibility" : 1
 				}
@@ -82,7 +125,7 @@
 					"outlettype" : [ "multichannelsignal", "" ],
 					"patching_rect" : [ 327.0, 115.0, 70.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 452.0, 67.0, 70.0, 23.0 ],
+					"presentation_rect" : [ 452.0, 77.0, 70.0, 23.0 ],
 					"varname" : "mo.sig~",
 					"viewvisibility" : 1
 				}
@@ -107,7 +150,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 327.0, 280.0, 214.0, 182.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 67.0, 214.0, 182.0 ],
+					"presentation_rect" : [ 236.0, 77.0, 214.0, 182.0 ],
 					"varname" : "mo.sliders[1]",
 					"viewvisibility" : 1
 				}
@@ -132,7 +175,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 98.0, 115.0, 214.0, 126.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 67.0, 214.0, 126.0 ],
+					"presentation_rect" : [ 20.0, 77.0, 214.0, 126.0 ],
 					"varname" : "mo.sliders",
 					"viewvisibility" : 1
 				}
@@ -172,7 +215,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 420.5, 518.0, 77.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 545.5, 208.0, 74.0, 25.0 ],
+					"presentation_rect" : [ 546.0, 218.0, 74.0, 25.0 ],
 					"text" : "start dsp"
 				}
 
@@ -194,7 +237,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 393.5, 521.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 518.5, 211.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 519.0, 221.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -214,7 +257,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 339.5, 508.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 464.5, 198.0, 45.0, 45.0 ]
+					"presentation_rect" : [ 465.0, 208.0, 45.0, 45.0 ]
 				}
 
 			}

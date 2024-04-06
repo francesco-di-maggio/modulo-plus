@@ -1,0 +1,132 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 2,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
+		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "214 x 57, containing 1 object",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
+		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mo.metronome.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 10.0, 10.0, 214.0, 45.0 ],
+					"varname" : "mo.metronome",
+					"viewvisibility" : 1
+				}
+
+			}
+ ],
+		"lines" : [  ],
+		"parameters" : 		{
+			"obj-1::obj-153" : [ "live.text[784]", "live.text", 0 ],
+			"obj-1::obj-18" : [ "live.text[37]", "live.text", 0 ],
+			"obj-1::obj-37" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-57" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-1::obj-65" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-1::obj-7" : [ "live.text[3]", "live.text", 0 ],
+			"obj-1::obj-8" : [ "live.text[2]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.metronome.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../../modulo/misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../../modulo/misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.stop.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"patcherrelativepath" : "../../../modulo/misc/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"snippetinfo" : 		{
+			"name" : "mo.timer",
+			"objects" : "jpatcher",
+			"tags" : "",
+			"description" : "214 x 57, containing 1 object",
+			"image" : "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"
+		}
+,
+		"autosave" : 0
+	}
+
+}
