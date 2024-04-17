@@ -69,7 +69,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "d-mo.joycon.als" ],
+					"args" : [ "mo-joycon-live.als" ],
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -1402,6 +1402,10 @@
 ,
 				"obj-6::obj-10" : 				{
 					"parameter_longname" : "live.text[136]"
+				}
+,
+				"obj-6::obj-56" : 				{
+					"parameter_longname" : "live.numbox[22]"
 				}
 ,
 				"obj-7::obj-1" : 				{

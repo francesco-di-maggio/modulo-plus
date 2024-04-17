@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 506.0, 459.0 ],
+		"rect" : [ 34.0, 87.0, 506.0, 500.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -80,15 +80,15 @@
 				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-12",
-					"linecount" : 10,
+					"linecount" : 12,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 440.0, 90.0, 151.0 ],
+					"patching_rect" : [ 20.0, 440.0, 90.0, 179.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 10,
-					"presentation_rect" : [ 20.0, 300.0, 93.0, 151.0 ],
-					"text" : "1. bounce\n2. shake note\n3. spin note\n4. angle\n5. move\n6. move average\n7. spin\n8. spin average\n9. free fall"
+					"presentation_linecount" : 12,
+					"presentation_rect" : [ 20.0, 304.0, 93.0, 179.0 ],
+					"text" : "GESTURES:\n\n1. bounce\n2. shake note\n3. spin note\n4. angle\n5. move\n6. move average\n7. spin\n8. spin average\n9. free fall"
 				}
 
 			}
@@ -102,7 +102,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 579.0, 204.0, 205.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 248.0, 407.0, 205.0, 25.0 ],
+					"presentation_rect" : [ 241.0, 368.0, 205.0, 25.0 ],
 					"text" : "download and install the firmware"
 				}
 
@@ -124,7 +124,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 549.0, 207.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 220.0, 409.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 213.0, 370.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -146,7 +146,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -267,7 +267,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 519.0, 205.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 188.0, 407.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 181.0, 368.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -283,7 +283,7 @@
 					"patching_rect" : [ 307.25, 120.0, 316.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 183.0, 343.0, 316.0, 50.0 ],
+					"presentation_rect" : [ 176.0, 304.0, 316.0, 50.0 ],
 					"text" : "INSTRUCTIONS:\n\nThis patch is built upon the ODD Pro Beta Firmware 2024."
 				}
 
@@ -300,7 +300,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
