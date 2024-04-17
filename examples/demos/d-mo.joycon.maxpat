@@ -197,7 +197,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 6,
 					"presentation_rect" : [ 373.0, 227.0, 217.0, 93.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Set MIDI output ports.\n2. Launch Ableton Live's set.\n3. Play note with the upper (R) button,\nmotion and joystick sensors."
+					"text" : "INSTRUCTIONS:\n\n1. Set MIDI output ports.\n2. Launch Ableton Live's set.\n3. Play note with the upper (R) button,\n     motion and joystick sensors."
 				}
 
 			}
