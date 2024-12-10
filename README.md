@@ -1,6 +1,6 @@
 ![modulo-plus logo](icon.png "the modulo logo")
 
-# modulo-plus
+# modulo+
 
 A Creative Extension to the [```modulo```](https://github.com/francesco-di-maggio/modulo) Package. 
 

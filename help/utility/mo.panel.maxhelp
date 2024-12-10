@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -139,7 +139,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 535.0, 214.0, 23.0 ]
+					"patching_rect" : [ 41.0, 535.0, 240.0, 23.0 ],
+					"text" : "bgcolor 0.76018 0.00382 0.00382 1."
 				}
 
 			}
@@ -356,7 +357,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 1 ],
-					"midpoints" : [ 50.5, 522.0, 245.5, 522.0 ],
+					"midpoints" : [ 50.5, 522.0, 271.5, 522.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
