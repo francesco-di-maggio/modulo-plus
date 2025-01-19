@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 96.0, 422.0, 380.0 ],
+		"rect" : [ 134.0, 173.0, 422.0, 380.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
@@ -18,18 +18,6 @@
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 38.0, 30.0, 58.0, 23.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "message",
@@ -343,14 +331,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 47.5, 54.0, 47.5, 54.0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"midpoints" : [ 90.5, 483.0, 90.5, 483.0 ],
 					"source" : [ "obj-11", 0 ]
@@ -495,7 +475,7 @@
 
 			}
  ],
-		"originid" : "pat-2578",
+		"originid" : "pat-326",
 		"parameters" : 		{
 			"obj-11::obj-10" : [ "live.text[856]", "live.text", 0 ],
 			"obj-12::obj-2" : [ "live.text[21]", "live.text", 0 ],
