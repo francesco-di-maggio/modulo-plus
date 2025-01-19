@@ -2,43 +2,21 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 1,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 470.0, 519.0 ],
-		"bglocked" : 0,
+		"rect" : [ 34.0, 96.0, 470.0, 519.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
 		"subpatcher_template" : " ",
 		"helpsidebarclosed" : 1,
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"args" : [ 2 ],
@@ -77,8 +55,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "mo.dac~.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 38.0, 468.0, 214.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 430.0, 214.0, 70.0 ],
@@ -173,9 +152,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 37.638164833188057, 118.09848829294431, 214.0, 98.0 ],
+					"patching_rect" : [ 37.638164833188057, 118.09848829294431, 214.0, 99.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 94.0, 214.0, 98.0 ],
+					"presentation_rect" : [ 20.0, 94.0, 214.0, 99.0 ],
 					"varname" : "mo.onepole~",
 					"viewvisibility" : 1
 				}
@@ -333,6 +312,7 @@
 
 			}
  ],
+		"originid" : "pat-3292",
 		"parameters" : 		{
 			"obj-20::obj-45" : [ "live.gain~[1]", "volume", 0 ],
 			"obj-20::obj-56" : [ "live.numbox[348]", "live.numbox", 0 ],
@@ -408,6 +388,30 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-25::obj-1" : 				{
+					"parameter_longname" : "live.text[848]"
+				}
+,
+				"obj-25::obj-34" : 				{
+					"parameter_longname" : "live.text[710]"
+				}
+,
+				"obj-25::obj-38" : 				{
+					"parameter_longname" : "live.text[709]"
+				}
+,
+				"obj-25::obj-56" : 				{
+					"parameter_longname" : "live.numbox[585]"
+				}
+,
+				"obj-25::obj-66" : 				{
+					"parameter_longname" : "live.numbox[586]"
+				}
+,
+				"obj-25::obj-71" : 				{
+					"parameter_longname" : "live.numbox[587]"
+				}
+,
 				"obj-7::obj-10" : 				{
 					"parameter_longname" : "live.numbox[16]"
 				}
@@ -422,6 +426,18 @@
 ,
 				"obj-7::obj-107::obj-68" : 				{
 					"parameter_longname" : "live.numbox[2]"
+				}
+,
+				"obj-7::obj-123::obj-2" : 				{
+					"parameter_longname" : "live.text[682]"
+				}
+,
+				"obj-7::obj-123::obj-37" : 				{
+					"parameter_longname" : "live.tab[1]"
+				}
+,
+				"obj-7::obj-123::obj-68" : 				{
+					"parameter_longname" : "live.numbox[169]"
 				}
 ,
 				"obj-7::obj-1::obj-2" : 				{
@@ -611,63 +627,63 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a-mo.onepole~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/misc/abstractions",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo-plus/misc/abstractions",
 				"patcherrelativepath" : "../../misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a-mo.settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/abstractions",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
 				"patcherrelativepath" : "../../../modulo/misc/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.dac~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/route",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/patchers/route",
 				"patcherrelativepath" : "../../../modulo/patchers/route",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.onepole~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers/transform",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo-plus/patchers/transform",
 				"patcherrelativepath" : "../../patchers/transform",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../../modulo/misc/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.rand~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo-plus/patchers/input",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo-plus/patchers/input",
 				"patcherrelativepath" : "../../patchers/input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.resize.js",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/js",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
 				"patcherrelativepath" : "../../../modulo/misc/js",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.scope~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/patchers/utility",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/patchers/utility",
 				"patcherrelativepath" : "../../../modulo/patchers/utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.stop.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/modulo/misc/icons",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/icons",
 				"patcherrelativepath" : "../../../modulo/misc/icons",
 				"type" : "svg",
 				"implicit" : 1

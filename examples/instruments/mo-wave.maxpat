@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 547.0, 393.0 ],
+		"rect" : [ 34.0, 96.0, 547.0, 393.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -418,7 +418,7 @@
 
 			}
  ],
-		"originid" : "pat-3141",
+		"originid" : "pat-2270",
 		"parameters" : 		{
 			"obj-18::obj-107::obj-20" : [ "Show Particle Settings[3]", "live.text", 0 ],
 			"obj-18::obj-107::obj-35" : [ "live.text[50]", "live.text", 0 ],
@@ -725,6 +725,10 @@
 ,
 				"obj-18::obj-50::obj-8" : 				{
 					"parameter_longname" : "live.text[80]"
+				}
+,
+				"obj-18::obj-56" : 				{
+					"parameter_longname" : "live.numbox[17]"
 				}
 ,
 				"obj-18::obj-74::obj-20" : 				{
