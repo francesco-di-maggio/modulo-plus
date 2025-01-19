@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 96.0, 547.0, 393.0 ],
+		"rect" : [ 134.0, 173.0, 547.0, 393.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -26,7 +26,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 9,
 					"presentation_rect" : [ 25.0, 234.0, 368.0, 136.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Download, and open the Software Desktop app.\n\nhttps://genkiinstruments.com/products/softwave\n\n2. Open preset (modulo/misc/presets/wave.xml).\n2. Open Audio MIDI Setup.app and connect the ring via Bluetooth.\n3. Set the MIDI input device to be the Genki \"Wave\" ring."
+					"text" : "INSTRUCTIONS:\n\n1. Download, and open the Software Desktop app.\n\nhttps://genkiinstruments.com/products/softwave\n\n2. Load preset (modulo-plus/misc/presets/mo-wave.xml).\n2. Open Audio MIDI Setup.app and connect the ring via Bluetooth.\n3. Set the MIDI input device to be the Genki \"Wave\" ring."
 				}
 
 			}
@@ -418,7 +418,7 @@
 
 			}
  ],
-		"originid" : "pat-2270",
+		"originid" : "pat-632",
 		"parameters" : 		{
 			"obj-18::obj-107::obj-20" : [ "Show Particle Settings[3]", "live.text", 0 ],
 			"obj-18::obj-107::obj-35" : [ "live.text[50]", "live.text", 0 ],
