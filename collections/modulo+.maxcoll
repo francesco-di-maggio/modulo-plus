@@ -4,6 +4,8 @@
 	"contents" : [ 
 "mo.joycon.maxsnip", "mo.myo.maxsnip", "odd.maxsnip", "mo.rand~.maxsnip",
 
+"mo.oocsi.maxsnip",
+
 "mo.bayesian.maxsnip", "mo.classify.maxsnip", "mo.denoise.maxsnip", "mo.env~.maxsnip", mo.normalize.maxsnip", "mo.onepole~.maxsnip", "mo.pca.maxsnip", "mo.regress.maxsnip", "mo.timeline.maxsnip", mo.trigger.maxsnip, 
 
 "mo.adstatus.maxsnip", "mo.buffer~.maxsnip", "mo.console.maxsnip", "mo.looper~.maxsnip", "mo.metronome.maxsnip", "mo.palette.maxsnip", "mo.panel.maxsnip" ]

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -464,7 +464,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 7,
 					"presentation_rect" : [ 20.0, 496.0, 255.0, 107.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Start dsp, and theremin~ playback.\n2. Record input and target output pairs.\n3. Use xypad to control the sound parameters.\n4. (Optional) Set different scaling factors.\n5. (Optional) Route input to different outputs."
+					"text" : "INSTRUCTIONS:\n\n1. Start dsp, and fm~ playback.\n2. Record input and target output pairs.\n3. Use xypad to control the sound parameters.\n4. (Optional) Set different scaling factors.\n5. (Optional) Route input to different outputs."
 				}
 
 			}
@@ -688,7 +688,7 @@
 
 			}
  ],
-		"originid" : "pat-2936",
+		"originid" : "pat-4020",
 		"parameters" : 		{
 			"obj-16::obj-10" : [ "live.text[88]", "live.text", 0 ],
 			"obj-16::obj-18" : [ "live.text[260]", "live.text", 0 ],
