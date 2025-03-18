@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 34.0, 96.0, 640.0, 480.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"description" : "70 x 57, containing 1 object",
+		"description" : "70 x 87, containing 1 object",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -30,33 +30,23 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 10.0, 70.0, 45.0 ],
+					"varname" : "mo.console",
 					"viewvisibility" : 1
 				}
 
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-1362",
+		"originid" : "pat-12870",
 		"parameters" : 		{
 			"obj-1::obj-13" : [ "live.dial[44]", "live.text", 0 ],
-			"obj-1::obj-7" : [ "live.dial[1]", "live.text", 0 ],
-			"obj-1::obj-9" : [ "live.text[6]", "live.text", 0 ],
+			"obj-1::obj-7" : [ "live.dial[37]", "live.text", 0 ],
+			"obj-1::obj-9" : [ "live.text[295]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-1::obj-7" : 				{
-					"parameter_longname" : "live.dial[1]"
-				}
-,
-				"obj-1::obj-9" : 				{
-					"parameter_longname" : "live.text[6]"
 				}
 
 			}
@@ -88,10 +78,10 @@
  ],
 		"tags" : "",
 		"snippetinfo" : 		{
-			"name" : "mo.console",
+			"name" : "mo.pad",
 			"objects" : "jpatcher",
 			"tags" : "",
-			"description" : "70 x 57, containing 1 object",
+			"description" : "70 x 87, containing 1 object",
 			"image" : "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"
 		}
 ,
