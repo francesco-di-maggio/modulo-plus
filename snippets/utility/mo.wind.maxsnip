@@ -1,0 +1,96 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 5,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"rect" : [ 34.0, 96.0, 640.0, 480.0 ],
+		"gridsize" : [ 15.0, 15.0 ],
+		"description" : "70 x 27, containing 1 object",
+		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mo.wind.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 10.0, 10.0, 70.0, 23.0 ],
+					"varname" : "mo.wind~",
+					"viewvisibility" : 1
+				}
+
+			}
+ ],
+		"lines" : [  ],
+		"originid" : "pat-17035",
+		"parameters" : 		{
+			"obj-1::obj-1" : [ "live.text[529]", "live.text", 0 ],
+			"obj-1::obj-4" : [ "live.text[1047]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "a-mo.settings.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/abstractions",
+				"patcherrelativepath" : "../../../modulo/misc/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.resize.js",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo/misc/js",
+				"patcherrelativepath" : "../../../modulo/misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.size.js",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo-plus/misc/js",
+				"patcherrelativepath" : "../../misc/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.wind.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/modulo-plus/patchers/utility",
+				"patcherrelativepath" : "../../patchers/utility",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"tags" : "",
+		"snippetinfo" : 		{
+			"name" : "mo.snapshot~",
+			"objects" : "jpatcher",
+			"tags" : "",
+			"description" : "70 x 27, containing 1 object",
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAAFoAAAArCAYAAAD41p9mAAAABHNCSVQICAgIfAhkiAAAAmtJREFUaIHt2bFLMnEYwPGvb+IihOBYoZMYRKtbEUJ08CoOQu/QUIt/gdIiLW0NbeUf0PIOLcGJOCgIOorUIDQG6uZgUQ2FvtsLvbzDnVfP76Tns97p7+HL8TvPCwyHwxnqy/0wPcB3oaGFaGghGlqIhhaioYVoaCEaWoiGFhJ0euLKyspXzrGwhsOho/Mch3bzpd+Fm4tPtw4hGlqIhhbiao/+1zw3SL/s85ZlcXd35+oztVqNzc3NudbzFBpg9uun43MDv22vy30qN+Esy/K0lm4dQnwX+v7+nu3tbd7f302P8ql8Fzoej1MqlQgGPe9qvmI89GAwwLIsNjY2aDabPD4+UqlUGI/HpNNp0uk0qVSKs7MzHh4eKBQKJJNJTk9Pmc0W53Wn8dC2bRMOh6lWq7y8vDCdThmNRkSjURqNBhcXF7y+vpLL5bi8vCSZTFKv17Ftm9vbW9PjO2Y8dCaTIRgMks1mGQwGH449Pz9TKBQ4OTkhkUjQarVot9uUy2USiQSTycTQ1O4ZD12v1ykWi1xfX3N+fv7hWKlUIpVKkc/nAVhfX2dvb4+rqyu2trYIh8MmRp6L8TvO6uoqR0dHLC8vc3BwQCAQAKDf73Nzc0MsFmNnZ4dcLsfx8TGHh4dUKhXW1tbY3983PL1zxkPv7u7S7XZ5e3v7e4X2ej3g/0+RnU6Hp6cnIpGI6JxeGQ8NEAqFCIVCjs5dWlpauMjwCaH99ljthtfHajc8hfbLH0TzqNVqousZ/9XxXWhoIRpaiKs9Wt+Ez89x6EW+8fmBbh1CNLQQDS1EQwvR0EI0tBANLURDC9HQQv4AjZamIU6dDv0AAAAASUVORK5CYII="
+		}
+,
+		"autosave" : 0
+	}
+
+}

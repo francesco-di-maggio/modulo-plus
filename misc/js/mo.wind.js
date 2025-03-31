@@ -10,18 +10,18 @@ function bang() {
 }
 
 function msg_int(value) {
-    if (inlet === 1 && value === 1) { // Removed 'this.patcher.wind.front' check
+    if (inlet === 1 && value === 1) { // Removed 'this.patcher.parentpatcher.wind.front' check
         restoreWindowData();
         sendPatcherName();
     }
 }
 
 function saveWindowData() {
-    if (!this.patcher.name) {
+    if (!this.patcher.parentpatcher.name) {
         return;
     }
 
-    var loc = this.patcher.wind.location;
+    var loc = this.patcher.parentpatcher.wind.location;
     var data = {
         left: loc[0],
         top: loc[1],
@@ -29,15 +29,15 @@ function saveWindowData() {
         height: loc[3] - loc[1]
     };
     var allData = readJSON();
-    allData[this.patcher.name] = data;
+    allData[this.patcher.parentpatcher.name] = data;
     writeJSON(allData);
 }
 
 function restoreWindowData() {
     var allData = readJSON();
-    var data = allData[this.patcher.name];
+    var data = allData[this.patcher.parentpatcher.name];
     if (data) {
-        this.patcher.wind.location = [
+        this.patcher.parentpatcher.wind.location = [
             data.left,
             data.top,
             data.left + data.width,
@@ -70,5 +70,5 @@ function writeJSON(data) {
 }
 
 function sendPatcherName() {
-    messnamed("tabctl", this.patcher.name);
+    messnamed("tabctl", this.patcher.parentpatcher.name);
 }
