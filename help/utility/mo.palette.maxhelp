@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -157,7 +157,7 @@
 					"background" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-702",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -183,7 +183,7 @@
 					"background" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-737",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -209,7 +209,7 @@
 					"background" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-728",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -235,7 +235,7 @@
 					"background" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-718",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -261,7 +261,7 @@
 					"background" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-712",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -287,7 +287,7 @@
 					"background" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-721",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -313,7 +313,7 @@
 					"background" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-706",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -335,7 +335,7 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-2560",
+		"originid" : "pat-5317",
 		"parameters" : 		{
 			"obj-1::obj-12" : [ "live.text[29]", "live.text", 0 ],
 			"obj-1::obj-15" : [ "live.text[2]", "live.text", 0 ],
@@ -410,7 +410,11 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"boxgroups" : [ 			{
+				"boxes" : [ "obj-702", "obj-728", "obj-718", "obj-706", "obj-721", "obj-712", "obj-737" ]
+			}
+ ]
 	}
 
 }
